@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hamster Kombat Key Generator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Hamster Kombat Key Generator</h1>
+            <p>Generate promo codes without playing the bike game.</p>
+        </header>
+
+        <main>
+            <div id="progressContainer" class="hidden">
+                <p id="progressLog">Initializing...</p>
+                <div class="progress-bar-container">
+                    <div id="progressBar" class="progress-bar"></div>
+                </div>
+                <p id="progressText">0%</p>
+            </div>
+
+            <div id="keyContainer" class="hidden">
+                <h2 id="generatedKeysTitle">Generated Keys</h2>
+                <div id="keysList"></div>
+                <button id="copyAllBtn" class="hidden">Copy All Keys</button>
+                <p id="copyStatus" class="hidden">Key copied to clipboard!</p>
+            </div>
+
+            <div class="controls">
+                <label for="keyCountSelect" id="keyCountLabel">Number of keys:</label>
+                <select id="keyCountSelect">
+                    <option value="1">1</option>
+                    <option value="5">5</option>
+                </select>
+                <button id="startBtn">Generate Keys</button>
+                <button id="generateMoreBtn" class="hidden">Generate More</button>
+                <button id="creatorChannelBtn">Creator Channel</button>
+            </div>
+        </main>
+
+        <footer>
+            <p>Created by Sam Richard</p>
+            <p><a href="https://telegram.me/Sam_Dm_bot" target="_blank">Contact me on Telegram</a></p>
+            <p><strong>Disclaimer:</strong> I am not responsible for any issues or damages, including potential bans from crypto airdrop or other services.</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
