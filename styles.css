@@ -1,114 +1,121 @@
 /* styles.css */
-
-* {
-    box-sizing: border-box;
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
     margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif;
-}
-
-body {
-    background-color: #f5f5f5;
-    color: #333;
-    line-height: 1.6;
 }
 
 .container {
-    max-width: 1200px;
-    margin: auto;
+    max-width: 800px;
+    margin: 50px auto;
     padding: 20px;
-    background: #fff;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-header {
+h1 {
     text-align: center;
+}
+
+.form-group {
     margin-bottom: 20px;
-}
-
-header h1 {
-    font-size: 2em;
-    color: #007BFF;
-}
-
-header p {
-    color: #666;
-}
-
-main {
-    margin-bottom: 20px;
-}
-
-.controls {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
 
 label {
-    margin-bottom: 10px;
+    display: block;
+    margin-bottom: 5px;
 }
 
 select, button {
-    margin: 10px;
+    width: 100%;
     padding: 10px;
-    border: none;
-    border-radius: 4px;
-    font-size: 1em;
-    cursor: pointer;
-}
-
-select {
-    background: #e9ecef;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
 }
 
 button {
-    background: #007BFF;
-    color: #fff;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
 }
 
 button:hover {
-    background: #0056b3;
+    background-color: #218838;
+}
+
+.progress-bar {
+    width: 0;
+    height: 20px;
+    background-color: #28a745;
+    border-radius: 5px;
+}
+
+#progressContainer {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+#progressText, #progressLog {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-weight: bold;
 }
 
 .hidden {
     display: none;
 }
 
-.progress-bar-container {
-    width: 100%;
-    background: #e9ecef;
-    border-radius: 4px;
-    overflow: hidden;
-    margin: 10px 0;
+#keysList {
+    margin-top: 20px;
 }
 
-.progress-bar {
-    height: 25px;
-    width: 0%;
-    background: #28a745;
-    transition: width 0.5s ease;
+.key-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.key-item input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.copyKeyBtn {
+    padding: 10px;
+    border: 1px solid #28a745;
+    background-color: #28a745;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.copyKeyBtn:hover {
+    background-color: #218838;
 }
 
 footer {
     text-align: center;
     margin-top: 20px;
+    font-size: 0.9em;
+}
+
+#copyStatus {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #28a745;
+    color: white;
     padding: 10px;
-    background: #e9ecef;
-    border-radius: 8px;
-}
-
-footer a {
-    color: #007BFF;
-    text-decoration: none;
-}
-
-footer a:hover {
-    text-decoration: underline;
-}
-
-#progressLog {
-    font-size: 1em;
-    color: #007BFF;
+    border-radius: 5px;
 }
