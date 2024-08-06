@@ -37,6 +37,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const generatedKeysTitle = document.getElementById('generatedKeysTitle');
     const gameSelect = document.getElementById('gameSelect');
     const copyStatus = document.getElementById('copyStatus');
+    const telegramChannelBtn = document.getElementById('telegramChannelBtn');
 
     startBtn.addEventListener('click', async () => {
         const gameChoice = parseInt(gameSelect.value);
@@ -156,7 +157,11 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     document.getElementById('creatorChannelBtn').addEventListener('click', () => {
-        window.location.href = 'https://t.me/Sam_Dm_bot';
+        window.open('https://telegram.me/Sam_Dm_bot', '_blank');
+    });
+
+    telegramChannelBtn.addEventListener('click', () => {
+        window.open('https://telegram.me/Insta_Buy_Follower', '_blank');
     });
 
     const generateClientId = () => {
