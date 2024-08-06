@@ -1,5 +1,12 @@
 # Hamster Kombat Key Generator
 
+## NEW Update
+The New 3 Games is To be Added Soon
+Meanwhile Do Wait in our [Telegram Channel](https://t.me/Insta_Buy_Follower).
+
+You can reach out to me via my [Telegram](https://telegram.me/Sam_Dm_bot).
+
+
 ## Description
 
 The Hamster Kombat Key Generator provides a simple way to obtain promo codes for the Hamster Kombat game. This tool eliminates the need to play the Bike game by allowing direct key generation. 
