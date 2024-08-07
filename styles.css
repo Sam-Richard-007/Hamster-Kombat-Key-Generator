@@ -50,6 +50,8 @@ button {
     cursor: pointer;
 }
 
+
+
 button:hover {
     background-color: #0056b3;
 }
@@ -116,4 +118,8 @@ button:hover {
 #copyStatus {
     margin-top: 10px;
     color: green;
+}
+
+#telegramChannelBtn{
+    background-color: green;
 }
