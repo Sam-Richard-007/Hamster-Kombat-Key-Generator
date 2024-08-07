@@ -1,5 +1,12 @@
 # Hamster Kombat Key Generator
 
+## How To Generate Keys (Easy)
+### Method 1
+Generate using our [Telegram Bot Link](http://telegram.me/Hamster_Kombat_Keys_Gen_Bot)
+
+### Method 2
+Generate Using Our [Website](https://sam-richard-007.github.io/Hamster-Kombat-Key-Generator)
+
 ## Description
 
 This repository contains the code for the Hamster Kombat Promo Code Generator. The tool allows users to generate promo codes for four different games.
