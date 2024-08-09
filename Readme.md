@@ -1,11 +1,11 @@
 # Hamster Kombat Key Generator
 
 ## How To Generate Keys (Easy)
-### Method 1
+**Method 1**
 Generate using our [Telegram Bot Link](http://telegram.me/Hamster_Kombat_Keys_Gen_Bot)
 
-### Method 2
-Generate Using Our [Website](https://sam-richard-007.github.io/Hamster-Kombat-Key-Generator)
+**Method 2**
+Generate Using Our [Website](https://shrs.link/foJ9YH)
 
 ## Description
 
