@@ -1,5 +1,11 @@
 # Hamster Kombat Key Generator
 
+## Announcement 📢
+I Am Aware that the Hamster Kombat Key generator is **not working** as Expected
+So I Request Everyone to Stay Tuned At our [Telegram Channel](https://telegram.me/Insta_Buy_Follower)
+If You Know any Working Hamster Key Generator Do Contact me on [Telegram](https://telegram.me/Sam_Dm_bot)
+
+
 ## How To Generate Keys (Easy)
 **Method 1**
 Generate using our [Telegram Bot Link](http://telegram.me/Hamster_Kombat_Keys_Gen_Bot)
