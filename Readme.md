@@ -1,10 +1,12 @@
 # Hamster Kombat Key Generator
 
 ## Announcement 📢
-I Am Aware that the Hamster Kombat Key generator is **not working** as Expected
-So I Request Everyone to Stay Tuned At our [Telegram Channel](https://telegram.me/Insta_Buy_Follower)
-If You Know any Working Hamster Key Generator Do Contact me on [Telegram](https://telegram.me/Sam_Dm_bot)
+It seems the Server Side is Slow
 
+So the Initial Process May Take some time to Generate Keys 🗝️
+So Wait And Generate Keys for All [4 Games](https://github.com/Sam-Richard-007/Hamster-Kombat-Key-Generator#features)
+
+Do Wait and [Generate Hamster Keys](http://t.me/Hamster_Keys_Gen_Bot/Key_Geneator)
 
 ## How To Generate Keys (Easy)
 **Method 1**
@@ -24,7 +26,7 @@ The Hamster Kombat Key Generator provides a simple way to obtain promo codes for
 - Added support for three new games: Chain Cube 2048, My Clone Army, and Train Miner.
 - Improved responsive design.
 - Enhanced progress tracking with logs.
-- You can reach out to me via my [Telegram](https://telegram.me/Sam_Dm_bot).
+- You can reach out to me via my [Telegram 🆔](https://telegram.me/Sam_Dm_bot).
 
 ## Features
 
