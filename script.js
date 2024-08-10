@@ -40,13 +40,16 @@ document.addEventListener('DOMContentLoaded', () => {
     const copyStatus = document.getElementById('copyStatus');
     const telegramChannelBtn = document.getElementById('telegramChannelBtn');
 
+    const previousKeysContainer = document.getElementById('previousKeysContainer');
+    const previousKeysList = document.getElementById('previousKeysList');
+
     const initializeLocalStorage = () => {
         const now = new Date().toISOString().split('T')[0];
         Object.values(games).forEach(game => {
             const storageKey = `keys_generated_${game.name}`;
             const storedData = JSON.parse(localStorage.getItem(storageKey));
             if (!storedData || storedData.date !== now) {
-                localStorage.setItem(storageKey, JSON.stringify({ date: now, count: 0 }));
+                localStorage.setItem(storageKey, JSON.stringify({ date: now, count: 0, keys: [] }));
             }
         });
     };
@@ -139,18 +142,27 @@ document.addEventListener('DOMContentLoaded', () => {
         const game = games[gameChoice];
 
         const storageKey = `keys_generated_${game.name}`;
-        const storedData = JSON.parse(localStorage.getItem(storageKey));
+        const storedData = JSON.parse(localStorage.getItem(storageKey)) || { keys: [], count: 0 };
+
 
         if (storedData.count + keyCount > MAX_KEYS_PER_GAME_PER_DAY) {
-            alert(`You can generate only ${MAX_KEYS_PER_GAME_PER_DAY - storedData.count} more keys for ${game.name} today. Please contact us on Telegram for more keys.`);
-            return;
+            alert(`You can generate only ${MAX_KEYS_PER_GAME_PER_DAY - storedData.count} more keys for ${game.name} today. Please contact us on Telegram for more keys. Now Select Ok to See previouly generated Keys`);
+            if (storedData.keys.length + keyCount > MAX_KEYS_PER_GAME_PER_DAY) {
+                previousKeysList.innerHTML = storedData.keys.map(key =>
+                    `<div class="key-item">
+                        <input type="text" value="${key}" readonly>
+                    </div>`
+                ).join('');
+                previousKeysContainer.classList.remove('hidden');
+                return;
+            }
         }
 
         keyCountLabel.innerText = `Number of keys: ${keyCount}`;
 
         progressBar.style.width = '0%';
         progressText.innerText = '0%';
-        progressLog.innerText = 'Starting...';
+        progressLog.innerText = 'Starting... \n Please Wait it may take upto 1 min to initiate the process';
         progressContainer.classList.remove('hidden');
         keyContainer.classList.add('hidden');
         generatedKeysTitle.classList.add('hidden');
@@ -201,6 +213,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
         const keys = await Promise.all(Array.from({ length: keyCount }, generateKeyProcess));
 
+        storedData.count += keys.length;
+        storedData.keys.push(...keys.filter(key => key));
+        localStorage.setItem(storageKey, JSON.stringify(storedData));
+
         if (keys.length > 1) {
             keysList.innerHTML = keys.filter(key => key).map(key =>
                 `<div class="key-item">
@@ -217,9 +233,6 @@ document.addEventListener('DOMContentLoaded', () => {
                 </div>`;
         }
 
-        storedData.count += keyCount;
-        localStorage.setItem(storageKey, JSON.stringify(storedData));
-
         keyContainer.classList.remove('hidden');
         generatedKeysTitle.classList.remove('hidden');
         document.querySelectorAll('.copyKeyBtn').forEach(button => {
@@ -231,6 +244,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 });
             });
         });
+
         copyAllBtn.addEventListener('click', () => {
             const keysText = keys.filter(key => key).join('\n');
             navigator.clipboard.writeText(keysText).then(() => {
@@ -238,6 +252,15 @@ document.addEventListener('DOMContentLoaded', () => {
                 setTimeout(() => copyStatus.classList.add('hidden'), 2000);
             });
         });
+
+        // Store the generated keys in localStorage
+        const storedKeys = JSON.parse(localStorage.getItem(`generated_keys_${game.name}`)) || [];
+        storedKeys.push(...keys.filter(key => key));
+        localStorage.setItem(`generated_keys_${game.name}`, JSON.stringify(storedKeys));
+
+        // Update the generated key count in localStorage
+        storedData.count += keyCount;
+        localStorage.setItem(storageKey, JSON.stringify(storedData));
 
         progressBar.style.width = '100%';
         progressText.innerText = '100%';
@@ -250,6 +273,17 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     document.getElementById('generateMoreBtn').addEventListener('click', () => {
+        const gameChoice = parseInt(gameSelect.value);
+        const game = games[gameChoice];
+
+        const storedKeys = JSON.parse(localStorage.getItem(`generated_keys_${game.name}`)) || [];
+
+        // Check if the user has reached the limit
+        if (storedKeys.length >= MAX_KEYS_PER_GAME_PER_DAY) {
+            alert(`You have already generated ${MAX_KEYS_PER_GAME_PER_DAY} keys for ${game.name} today. These are your keys: \n\n${storedKeys.join('\n')}`);
+            return;
+        }
+
         progressContainer.classList.add('hidden');
         keyContainer.classList.add('hidden');
         startBtn.classList.remove('hidden');
