@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
     const EVENTS_DELAY = 20000;
-    const MAX_KEYS_PER_GAME_PER_DAY = 5;
+    const MAX_KEYS_PER_GAME_PER_DAY = 4;
 
     const games = {
         1: {
@@ -39,7 +39,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const gameSelect = document.getElementById('gameSelect');
     const copyStatus = document.getElementById('copyStatus');
     const telegramChannelBtn = document.getElementById('telegramChannelBtn');
-
+    //new
     const previousKeysContainer = document.getElementById('previousKeysContainer');
     const previousKeysList = document.getElementById('previousKeysList');
 
@@ -143,19 +143,17 @@ document.addEventListener('DOMContentLoaded', () => {
 
         const storageKey = `keys_generated_${game.name}`;
         const storedData = JSON.parse(localStorage.getItem(storageKey)) || { keys: [], count: 0 };
+        
+        const remainingKeys = MAX_KEYS_PER_GAME_PER_DAY - storedData.count;
 
-
-        if (storedData.count + keyCount > MAX_KEYS_PER_GAME_PER_DAY) {
-            alert(`You can generate only ${MAX_KEYS_PER_GAME_PER_DAY - storedData.count} more keys for ${game.name} today. Please contact us on Telegram for more keys. Now Select Ok to See previouly generated Keys`);
-            if (storedData.keys.length + keyCount > MAX_KEYS_PER_GAME_PER_DAY) {
-                previousKeysList.innerHTML = storedData.keys.map(key =>
-                    `<div class="key-item">
-                        <input type="text" value="${key}" readonly>
-                    </div>`
-                ).join('');
-                previousKeysContainer.classList.remove('hidden');
-                return;
-            }
+        if (storedData.count >= MAX_KEYS_PER_GAME_PER_DAY) {
+            alert(`You have reached the daily limit for ${game.name}. Here are today's previously generated keys:`);
+            displayPreviousKeys(storedData.keys);
+            return;
+        } else if (storedData.count + keyCount > MAX_KEYS_PER_GAME_PER_DAY) {
+            alert(`You can only generate ${remainingKeys} more keys for ${game.name} today.`);
+            displayPreviousKeys(storedData.keys);
+            return;
         }
 
         keyCountLabel.innerText = `Number of keys: ${keyCount}`;
@@ -172,6 +170,15 @@ document.addEventListener('DOMContentLoaded', () => {
         startBtn.classList.add('hidden');
         copyAllBtn.classList.add('hidden');
         startBtn.disabled = true;
+
+        const displayPreviousKeys = (keys) => {
+            previousKeysList.innerHTML = keys.map(key =>
+                `<div class="key-item">
+                    <input type="text" value="${key}" readonly>
+                </div>`
+            ).join('');
+            previousKeysContainer.classList.remove('hidden');
+        };
 
         let progress = 0;
         const updateProgress = (increment, message) => {
