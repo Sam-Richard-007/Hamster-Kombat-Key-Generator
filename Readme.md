@@ -1,7 +1,7 @@
 # Hamster Kombat Key Generator
 
 ## Announcement 📢
-The Key 🗝 Generation for Merge Away Tool is Getting Ready - Please Wait at our [Telegram Channel for Updates]([https://telegram.me/Sam_Dm_bot](https://telegram.me/Insta_Buy_Follower))
+The Key 🗝 Generation for Merge Away Tool is Getting Ready - Please Wait at our [Telegram Channel for Updates](https://telegram.me/Insta_Buy_Follower)
 
 So Wait And Generate Keys for All [4 Games Available ](#features)
 
