@@ -1,5 +1,12 @@
 # Hamster Kombat Key Generator
 
+## Announcement 📢
+The Key 🗝 Generation for Merge Away Tool is Getting Ready - Please Wait at our [Telegram Channel for Updates]([https://telegram.me/Sam_Dm_bot](https://telegram.me/Insta_Buy_Follower))
+
+So Wait And Generate Keys for All [4 Games Available ](#features)
+
+Do Wait and [Generate Hamster Keys](http://t.me/Hamster_Keys_Gen_Bot/Key_Geneator)
+
 ## Table of Contents
 - [Announcement](#announcement-)
 - [How To Generate Keys](#how-to-generate-keys-easy)
@@ -24,14 +31,6 @@ If you appreciate my hard work and the value this tool brings to your gaming exp
 - **Tron (TRX, TRC10/20)**: `TB3pWNNcvLnsiFEfy2vFF92rPaL14CUPZf`
 
 Your support is greatly appreciated and will go a long way in maintaining and improving this project.
-
-## Announcement 📢
-It seems the Server Side is Slow
-
-So the Initial Process May Take some time to Generate Keys 🗝️
-So Wait And Generate Keys for All [4 Games](#features)
-
-Do Wait and [Generate Hamster Keys](http://t.me/Hamster_Keys_Gen_Bot/Key_Geneator)
 
 ## How To Generate Keys (Easy)
 **Method 1**  
