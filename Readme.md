@@ -1,11 +1,11 @@
 # Hamster Kombat Key Generator
 
 ## Announcement 📢
-The Key 🗝 Generation Tool for **MergeAway** is ADDED! 
+The Key 🗝 Generation Tool for **MergeAway** Hamster Kombat is ADDED! 
 Stay tuned for updates on our [Telegram Channel](https://telegram.me/Insta_Buy_Follower).
 
 Meanwhile, you can generate keys for all the [5 Available games](#how-to-generate-keys-easy).
-Don't forget to [generate your Hamster Keys](http://t.me/Hamster_Keys_Gen_Bot/Key_Geneator).
+👉 Don't forget to [generate your Hamster Keys](http://t.me/Hamster_Keys_Gen_Bot/Key_Geneator).
 
 ## Table of Contents
 - [Announcement](#announcement-)
@@ -15,7 +15,6 @@ Don't forget to [generate your Hamster Keys](http://t.me/Hamster_Keys_Gen_Bot/Ke
 - [Features](#features)
 - [Usage](#usage)
 - [How It Works](#how-it-works)
-- [Technologies Used](#technologies-used)
 - [Getting Started](#getting-started)
 - [Example](#example)
 - [Contact](#contact)
@@ -34,11 +33,12 @@ Your support is greatly appreciated!
 
 ## How To Generate Keys (Easy)
 **Method 1**  
-Generate using our [Telegram Bot 1 Link](http://telegram.me/Hamster_Kombat_Keys_Gen_Bot)
+Generate using our 
+👉👉👉 [Telegram Bot 1 ](http://telegram.me/Hamster_Kombat_Keys_Gen_Bot) 👈👈👈
 [Telegram Bot 2](http://t.me/Hamster_Keys_Gen_Bot/Key_Geneator)
 
 **Method 2**  
-Generate using our [Website](https://shrs.link/foJ9YH)
+➡️➡️➡️Generate using our [Website](https://shrs.link/foJ9YH)⬅️⬅️⬅️⬅
 
 ## Description
 The **Hamster Kombat Key Generator** is a tool designed to help gamers generate promo codes for popular mobile games. With this generator, users can obtain promo codes quickly and efficiently, eliminating the need for tedious in-game tasks.
@@ -74,11 +74,6 @@ For questions or support, reach out via [Telegram](https://telegram.me/Sam_Dm_bo
 1. **Generate Promo Code**: Click on the "Generate Promo Code" button.
 2. **Progress Bar**: Monitor the progress through the progress bar.
 3. **Display and Copy Key**: View the generated key and use the "Copy Code" button to copy it to your clipboard.
-
-## Technologies Used
-- **HTML**: Structuring the web page.
-- **CSS**: Styling and layout adjustments.
-- **JavaScript**: Handling the promo code generation and user interactions.
 
 ## Getting Started
 1. **Clone or Download**: Get the code from the repository.
