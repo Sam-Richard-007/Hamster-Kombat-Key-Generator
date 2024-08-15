@@ -1,11 +1,11 @@
 # Hamster Kombat Key Generator
 
 ## Announcement 📢
-The Key 🗝 Generation for Merge Away Tool is Getting Ready - Please Wait at our [Telegram Channel for Updates](https://telegram.me/Insta_Buy_Follower)
+The Key 🗝 Generation Tool for **MergeAway** is ADDED! 
+Stay tuned for updates on our [Telegram Channel](https://telegram.me/Insta_Buy_Follower).
 
-So Wait And Generate Keys for All [4 Games Available ](#features)
-
-Do Wait and [Generate Hamster Keys](http://t.me/Hamster_Keys_Gen_Bot/Key_Geneator)
+Meanwhile, you can generate keys for all the [5 Available games](#how-to-generate-keys-easy).
+Don't forget to [generate your Hamster Keys](http://t.me/Hamster_Keys_Gen_Bot/Key_Geneator).
 
 ## Table of Contents
 - [Announcement](#announcement-)
@@ -25,36 +25,44 @@ Do Wait and [Generate Hamster Keys](http://t.me/Hamster_Keys_Gen_Bot/Key_Geneato
 - [Disclaimer](#disclaimer)
 
 ## Crypto Donation 💰
-If you appreciate my hard work and the value this tool brings to your gaming experience, consider making a donation to support further development! Your contribution will help keep the project alive and evolving. Every bit helps! 
+Appreciate the hard work? Consider supporting further development by donating! Your contribution keeps the project alive.
 
 - **TON Blockchain**: `UQBS1Wv7uYIYqX186CDK6a91prH4z8aAXvLybs_CZv3YPvTk`
 - **Tron (TRX, TRC10/20)**: `TB3pWNNcvLnsiFEfy2vFF92rPaL14CUPZf`
 
-Your support is greatly appreciated and will go a long way in maintaining and improving this project.
+Your support is greatly appreciated!
 
 ## How To Generate Keys (Easy)
 **Method 1**  
-Generate using our [Telegram Bot Link](http://telegram.me/Hamster_Kombat_Keys_Gen_Bot)
+Generate using our [Telegram Bot 1 Link](http://telegram.me/Hamster_Kombat_Keys_Gen_Bot)
+[Telegram Bot 2](http://t.me/Hamster_Keys_Gen_Bot/Key_Geneator)
 
 **Method 2**  
-Generate Using Our [Website](https://shrs.link/foJ9YH)
+Generate using our [Website](https://shrs.link/foJ9YH)
 
 ## Description
-This repository contains the code for the Hamster Kombat Promo Code Generator. The tool allows users to generate promo codes for four different games. The Hamster Kombat Key Generator provides a simple way to obtain promo codes for the Hamster Kombat game. This tool eliminates the need to play the game by allowing direct key generation. 
+The **Hamster Kombat Key Generator** is a tool designed to help gamers generate promo codes for popular mobile games. With this generator, users can obtain promo codes quickly and efficiently, eliminating the need for tedious in-game tasks.
 
 ## Updates
 **New in this update**:
-- Added support for three new games: Chain Cube 2048, My Clone Army, and Train Miner.
-- Improved responsive design.
-- Enhanced progress tracking with logs.
-- You can reach out to me via my [Telegram 🆔](https://telegram.me/Sam_Dm_bot).
+- Added support for a new game: **MergeAway**.
+- Improved responsive design for mobile and desktop.
+- Enhanced progress tracking with detailed logs.
 
 ## Features
-- **Four Games Supported**: Riding Extreme 3D, Chain Cube 2048, My Clone Army, and Train Miner.
+- **Five Games Supported**: 
+  - Riding Extreme 3D
+  - Chain Cube 2048
+  - My Clone Army
+  - Train Miner
+  - MergeAway
 - **Generate Promo Codes**: Generate up to 5 promo codes at a time.
-- **Responsive Design**: The website is responsive and works well on both desktop and mobile devices.
-- **Progress Tracking**: View the progress of the code generation process.
-- **Copy to Clipboard**: Easily copy generated promo codes to the clipboard.
+- **Responsive Design**: Fully optimized for both desktop and mobile devices.
+- **Progress Tracking**: Real-time progress tracking during key generation.
+- **Copy to Clipboard**: Easily copy generated promo codes to your clipboard.
+
+## Contact
+For questions or support, reach out via [Telegram](https://telegram.me/Sam_Dm_bot).
 
 ## Usage
 1. **Select a Game**: Choose a game from the dropdown list.
@@ -68,9 +76,9 @@ This repository contains the code for the Hamster Kombat Promo Code Generator. T
 3. **Display and Copy Key**: View the generated key and use the "Copy Code" button to copy it to your clipboard.
 
 ## Technologies Used
-- **HTML**: For the basic structure of the web page.
-- **CSS**: For styling and layout adjustments.
-- **JavaScript**: For handling the promo code generation and user interactions.
+- **HTML**: Structuring the web page.
+- **CSS**: Styling and layout adjustments.
+- **JavaScript**: Handling the promo code generation and user interactions.
 
 ## Getting Started
 1. **Clone or Download**: Get the code from the repository.
@@ -82,20 +90,17 @@ This repository contains the code for the Hamster Kombat Promo Code Generator. T
 3. Wait for the code to be generated and displayed.
 4. Click "Copy Code" to copy it to your clipboard.
 
-## Contact
-For any questions or support, you can reach out to me via my [Telegram](https://telegram.me/Sam_Dm_bot).
-
 ## Star the Repository
 If you found this project useful, please consider giving it a star on GitHub!
 
 ## Website
-Visit the website at [Hamster Kombat KEY Generator](https://sam-richard-007.github.io/Hamster-Kombat-Key-Generator/)
+Visit the website at [Hamster Kombat KEY Generator](https://shrs.link/foJ9YH)
 
 ## Credits
-This tool is developed by **Sam Richard**.
+Developed by **Sam Richard**.
 
 ## Disclaimer
-Please note that I am not responsible for any issues arising from the use of this tool, including but not limited to any potential bans or issues related to the crypto airdrop.
+This tool is for personal use only. The developer is not responsible for any issues arising from its use, including potential bans or issues related to crypto airdrops.
 
 ---
 
