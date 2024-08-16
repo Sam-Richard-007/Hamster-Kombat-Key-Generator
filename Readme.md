@@ -45,18 +45,19 @@ The **Hamster Kombat Key Generator** is a tool designed to help gamers generate 
 
 ## Updates
 **New in this update**:
-- Added support for a new game: **MergeAway**.
+- Added support for a new game: **MergeAway** and **Twerk Race**
 - Improved responsive design for mobile and desktop.
 - Enhanced progress tracking with detailed logs.
 
 ## Features
-- **Five Games Supported**: 
+- **Six Games Supported**: 
   - Riding Extreme 3D
   - Chain Cube 2048
   - My Clone Army
   - Train Miner
   - MergeAway
-- **Generate Promo Codes**: Generate up to 5 promo codes at a time.
+  - Twerk Race
+- **Generate Promo Codes**: Generate up to 4 promo codes at a time.
 - **Responsive Design**: Fully optimized for both desktop and mobile devices.
 - **Progress Tracking**: Real-time progress tracking during key generation.
 - **Copy to Clipboard**: Easily copy generated promo codes to your clipboard.
