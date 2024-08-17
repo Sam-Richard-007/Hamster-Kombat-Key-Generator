@@ -1,6 +1,9 @@
 # Hamster Kombat Key Generator
 
 ## Announcement 📢
+
+There is Some Known Bugs in Generation of Keys . Stay Tuned on our [Telegram Channel](https://telegram.me/Insta_Buy_Follower) For More Info 
+
 The Key 🗝 Generation Tool for **MergeAway** and **Twerk Race** Hamster Kombat Games is ADDED! 
 Stay tuned for updates on our [Telegram Channel](https://telegram.me/Insta_Buy_Follower).
 
