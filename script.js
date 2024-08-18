@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
     
     const MAX_KEYS_PER_GAME_PER_DAY = 10;
-    const EVENTS_DELAY = 70000;
+    const EVENTS_DELAY = 20000;
 
     const games = {
         1: {
@@ -212,10 +212,10 @@ document.addEventListener('DOMContentLoaded', () => {
                 return null;
             }
 
-            for (let i = 0; i < 11; i++) {
-                await sleep(EVENTS_DELAY * delayRandom());
+            for (let i = 0; i < game.attemptsNumber ; i++) {
+                await sleep(game.eventsDelay * delayRandom());
                 const hasCode = await emulateProgress(clientToken, game.promoId);
-                updateProgress(7 / keyCount, 'Emulating progress...');
+                updateProgress(((100 / game.attemptsNumber) / keyCount), 'Emulating progress...');
                 if (hasCode) {
                     break;
                 }
