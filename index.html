@@ -5,8 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Game Promo Code Generator</title>
     <link rel="stylesheet" href="styles.css">
-    <script src="//api.shareus.io/verify.js" defer></script>
-    <script type="module" src="https://injectshrslinkblog.com/popup/script.js"> </script>
 </head>
 <body>
     <div class="container">
@@ -30,6 +28,7 @@
                 <option value="2">2</option>
                 <option value="3">3</option>
                 <option value="4">4</option>
+                <option value="8">8</option>
                 
             </select>
         </div>
@@ -48,10 +47,22 @@
             <div id="copyStatus" class="hidden">Copied!</div>
             <button id="generateMoreBtn">Generate More Keys</button>
         </div>
+        <div class="mycodes">
+            <p>
+                The Key Generation may take upto 7-10 mins<br>
+                So do Kindly wait - If you feel the Key Generation is not working then <a href="https://telegram.me/Insta_Buy_Follower">Contact Creator</a>
+            </p>
+            <button id="ShowKeysBtn">My Codes</button>
+            <div id="generatedCodesContainer" style="display:none;">
+                <h3>Today's Generated Codes:</h3>
+                <ul id="generatedCodesList"></ul>
+            </div>
+
+        </div>
         <div class="footer">
             <p>Disclaimer: This tool is for educational purposes only. Use responsibly.</p>
-            <button id="creatorChannelBtn">Contact Creator</button> <br><br>
-            <button id="telegramChannelBtn">Check out Our Telegram Channel</button>
+            <button id="creatorChannelBtn">Contact Creator 🤖</button> <br><br>
+            <button id="telegramChannelBtn">Check out Our Telegram Channel 🆔</button>
         </div>
     </div>
     <script src="script.js"></script>
