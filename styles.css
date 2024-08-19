@@ -125,8 +125,8 @@ button:hover {
 }
 
 #countdownContainer {
-    display: none; /* Hide initially */
-    font-size: 1.5em;
+    display: none;
+    font-size: 1.05em;
     color: #ff0000;
     margin: 10px 0;
 }
