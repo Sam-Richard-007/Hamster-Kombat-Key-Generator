@@ -25,6 +25,7 @@ h1 {
 
 .form-group {
     margin-bottom: 15px;
+    margin-top: 15px;
 }
 
 label {
@@ -49,7 +50,6 @@ button {
     border-radius: 5px;
     cursor: pointer;
 }
-
 
 
 button:hover {
@@ -120,7 +120,7 @@ button:hover {
     color: green;
 }
 
-#telegramChannelBtn{
+#telegramChannelBtn {
     background-color: green;
 }
 
@@ -129,4 +129,11 @@ button:hover {
     font-size: 1.5em;
     color: #ff0000;
     margin: 10px 0;
+}
+
+textarea {
+    width: 100%;
+    white-space: pre;
+    overflow: scroll;
+    font-family: Consolas, serif;
 }

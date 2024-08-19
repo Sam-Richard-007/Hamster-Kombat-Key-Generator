@@ -36,12 +36,9 @@
             </select>
         </div>
         <button id="startBtn">Generate Keys</button>
-        <div id="progressContainer" class="hidden">
-            <div class="progress-bar">
-                <div id="progressBar"></div>
-            </div>
-            <div id="progressText">0%</div>
-            <div id="progressLog">Starting...</div>
+        <div id="progressContainer" class="form-group hidden">
+            <label for="logs">log:</label>
+            <textarea id="logs" rows="10" readonly></textarea>
         </div>
         <div id="keyContainer" class="hidden">
             <h3 id="generatedKeysTitle" class="hidden">Generated Keys:</h3>
