@@ -49,33 +49,6 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     };
 
-    const countdownContainer = document.getElementById('countdownContainer');
-    const countdownTimer = document.getElementById('countdownTimer');
-
-    async function startKeyGeneration(game) {
-        let countdown = game.eventsDelay / 1000;
-        countdownTimer.textContent = countdown;
-        countdownContainer.style.display = 'block';
-
-        const countdownInterval = setInterval(() => {
-            countdown -= 1;
-            countdownTimer.textContent = countdown;
-            if (countdown <= 0) {
-                clearInterval(countdownInterval);
-                countdownContainer.style.display = 'none';
-                // Proceed with the key generation step here
-            }
-        }, 1000);
-
-        // Delay the next step by the eventsDelay
-        await new Promise(resolve => setTimeout(resolve, game.eventsDelay));
-
-        clearInterval(countdownInterval);
-        countdownContainer.style.display = 'none';
-
-        // After the delay, proceed with the key generation
-        // Example: generateKeysForGame(game);
-    }
 
     const startBtn = document.getElementById('startBtn');
     const keyCountSelect = document.getElementById('keyCountSelect');
@@ -229,6 +202,34 @@ document.addEventListener('DOMContentLoaded', () => {
             progressLog.innerText = message;
         };
 
+        const countdownContainer = document.getElementById('countdownContainer');
+    const countdownTimer = document.getElementById('countdownTimer');
+
+    async function startKeyGeneration(game) {
+        let countdown = game.eventsDelay / 1000;
+        countdownTimer.textContent = countdown;
+        countdownContainer.style.display = 'block';
+
+        const countdownInterval = setInterval(() => {
+            countdown -= 1;
+            countdownTimer.textContent = countdown;
+            if (countdown <= 0) {
+                clearInterval(countdownInterval);
+                countdownContainer.style.display = 'none';
+                // Proceed with the key generation step here
+            }
+        }, 1000);
+
+        // Delay the next step by the eventsDelay
+        await new Promise(resolve => setTimeout(resolve, game.eventsDelay));
+
+        clearInterval(countdownInterval);
+        countdownContainer.style.display = 'none';
+
+        // After the delay, proceed with the key generation
+        // Example: generateKeysForGame(game);
+    
+
         const generateKeyProcess = async () => {
             const clientId = generateClientId();
             let clientToken;
@@ -257,6 +258,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 alert(`Failed to generate key: ${error.message}`);
                 return null;
             }
+        }
         };
 
         const keys = await Promise.all(Array.from({ length: keyCount }, generateKeyProcess));
