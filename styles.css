@@ -123,3 +123,10 @@ button:hover {
 #telegramChannelBtn{
     background-color: green;
 }
+
+#countdownContainer {
+    display: none; /* Hide initially */
+    font-size: 1.5em;
+    color: #ff0000;
+    margin: 10px 0;
+}
