@@ -203,7 +203,7 @@ document.addEventListener('DOMContentLoaded', () => {
         };
     
 
-        const generateKeyProcess = async () => {
+    const generateKeyProcess = async () => {
     const clientId = generateClientId();
     let clientToken;
     try {
@@ -215,7 +215,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     for (let i = 0; i < game.attemptsNumber; i++) {
-        let countdown = game.eventsDelay / 1000;
+        let countdown = (game.eventsDelay / 1000) + 25 ;
         const countdownContainer = document.getElementById('countdownContainer');
         const countdownTimer = document.getElementById('countdownTimer');
 
