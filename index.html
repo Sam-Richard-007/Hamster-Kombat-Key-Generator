@@ -21,6 +21,21 @@
 
             </select>
         </div>
+
+        <div id="google_translate_element"></div>
+        <script type="text/javascript">
+            function googleTranslateElementInit() {
+                new google.translate.TranslateElement({
+                    pageLanguage: 'en', 
+                    includedLanguages: 'en,hi,ta,ru,id,ha,pt', 
+                    layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+                }, 'google_translate_element');
+            }
+            
+        </script>
+        <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+        
+
         
         <div class="form-group">
             <label id="keyCountLabel" for="keyCountSelect">Number of keys:</label>
@@ -34,6 +49,12 @@
             </select>
         </div>
         <button id="startBtn">Generate Keys</button>
+
+        <label>
+            <input type="checkbox" id="logCheckbox"> Enable Logs
+        </label>
+        <textarea id="logArea" rows="3" readonly style="width: 100%; resize: none; font-size: 12px; display: none;"></textarea>
+        
         <div id="progressContainer" class="hidden">
             <div class="progress-bar">
                 <div id="progressBar"></div>
@@ -72,4 +93,5 @@
     </div>
     <script src="script.js"></script>
 </body>
-</html>
+
+</html>s
