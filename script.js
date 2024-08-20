@@ -67,6 +67,27 @@ document.addEventListener('DOMContentLoaded', () => {
     const previousKeysList = document.getElementById('previousKeysList');
     const telegramChannelBtn = document.getElementById('telegramChannelBtn');
 
+    //for logs
+    const logMessage = (message) => {
+        const logArea = document.getElementById('logArea');
+        const logCheckbox = document.getElementById('logCheckbox');
+    
+        if (logCheckbox.checked) {
+            logArea.style.display = 'block'; // Show the textarea if logs are enabled
+            logArea.value += message + '\n';
+            logArea.scrollTop = logArea.scrollHeight; // Auto-scroll to the bottom
+        }
+    };
+    
+    document.getElementById('logCheckbox').addEventListener('change', (event) => {
+        const logArea = document.getElementById('logArea');
+        if (event.target.checked) {
+            logArea.style.display = 'block'; // Show the textarea when the checkbox is checked
+        } else {
+            logArea.style.display = 'none';  // Hide the textarea when the checkbox is unchecked
+        }
+    });
+
     const initializeLocalStorage = () => {
         const now = new Date().toISOString().split('T')[0];
         Object.values(games).forEach(game => {
@@ -213,40 +234,49 @@ document.addEventListener('DOMContentLoaded', () => {
         startBtn.disabled = false;
         return null;
     }
-
     for (let i = 0; i < game.attemptsNumber; i++) {
-        let countdown = game.eventsDelay / 1000  ;
+        logMessage(`Attempt ${i + 1}: Sending request...`);
+    
+        let countdown = game.eventsDelay / 1000;
         const countdownContainer = document.getElementById('countdownContainer');
         const countdownTimer = document.getElementById('countdownTimer');
-
+    
         countdownContainer.style.display = 'block';
         countdownTimer.textContent = countdown;
-
+    
         const countdownInterval = setInterval(() => {
             countdown -= 1;
             countdownTimer.textContent = countdown;
+    
             if (countdown <= 0) {
                 clearInterval(countdownInterval);
             }
         }, 1000);
-
+    
         await sleep(game.eventsDelay * delayRandom());
-
+    
         clearInterval(countdownInterval);
         countdownContainer.style.display = 'none';
-
+    
         const hasCode = await emulateProgress(clientToken, game.promoId);
         updateProgress(((100 / game.attemptsNumber) / keyCount), 'Emulating progress...');
+    
         if (hasCode) {
+            logMessage(`Attempt ${i + 1}: Request success. Code received.`);
             break;
+        } else {
+            logMessage(`Attempt ${i + 1}: Request failed. No code received.`);
         }
     }
-
+    
     try {
+        logMessage('Generating the key...');
         const key = await generateKey(clientToken, game.promoId);
+        logMessage('Key generation successful.');
         updateProgress(30 / keyCount, 'Generating key...');
         return key;
     } catch (error) {
+        logMessage(`Key generation failed: ${error.message}`);
         alert(`Failed to generate key: ${error.message}`);
         return null;
     }
