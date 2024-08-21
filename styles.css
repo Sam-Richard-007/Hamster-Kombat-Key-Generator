@@ -4,6 +4,9 @@
     font-family: "Poppins", sans-serif;
     box-sizing: border-box;
 }
+p{
+    margin-bottom: 10px;
+}
 body {
     background-color: #f0f0f0;
     color: #e2fff0;
