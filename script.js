@@ -340,7 +340,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     document.getElementById('creatorChannelBtn').addEventListener('click', () => {
-        window.open('https://t.me/Hahu_Crypto', '_blank');
+        window.open('https://t.me/scoregamez_bot', '_blank');
     });
 
     telegramChannelBtn.addEventListener('click', () => {
