@@ -2,13 +2,15 @@
 
 ## Announcement 📢
 
-The Key 🗝 Generation Tool for **Poly Sphere** Hamster Kombat Game is ADDED! 
+The Key 🗝 Generation Tool for 
+**1. Mud Racing 
+2. Mow and Trim** Hamster Kombat Games ar ADDED! 
 
 We Have BEST AND SAFE Hamster Key generator Tool [How ??](https://t.me/Insta_Buy_Follower/99)
 There are many Fake copies of my Key Generator Script Be aware and Use only Our Script
 
-You can generate keys for all the [7 Available games](#how-to-generate-keys-easy).
-👉 Don't forget to [generate your Hamster Keys](http://t.me/Hamster_Keys_Gen_Bot/Key_Geneator).
+You can generate keys for all the [9 Available games](#how-to-generate-keys-easy).
+👉 Don't forget to [generate your Hamster Keys](https://telegram.me/Hamster_Keys_Gen_Bot).
 
 ## Table of Contents
 - [How To Generate Keys](#how-to-generate-keys-easy)
@@ -59,7 +61,9 @@ The **Hamster Kombat Key Generator** is a tool designed to help gamers generate 
   - MergeAway
   - Twerk Race
   - Poly Sphere
-- **Generate Promo Codes**: Generate up to 4 promo codes at a time.
+  - Mud Racing 🆕
+  - Mow and Trim 🆕
+- **Generate Promo Codes**: Generate up to 8 promo codes at a time.
 - **Responsive Design**: Fully optimized for both desktop and mobile devices.
 - **Progress Tracking**: Real-time progress tracking during key generation.
 - **Copy to Clipboard**: Easily copy generated promo codes to your clipboard.
