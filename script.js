@@ -1,1 +1,1633 @@
-function _0x5b9c(_0x4b25a0,_0x48882f){const _0x46bff4=_0x3b76();return _0x5b9c=function(_0x47c92b,_0x1734af){_0x47c92b=_0x47c92b-0x15d;let _0x40574b=_0x46bff4[_0x47c92b];return _0x40574b;},_0x5b9c(_0x4b25a0,_0x48882f);}const _0x28a4bd=_0x5b9c;(function(_0x30c5ca,_0x47debb){const _0x4225de=_0x5b9c,_0x5efdad=_0x30c5ca();while(!![]){try{const _0x21191c=parseInt(_0x4225de(0x1a6))/0x1+parseInt(_0x4225de(0x19c))/0x2+parseInt(_0x4225de(0x19b))/0x3+parseInt(_0x4225de(0x176))/0x4*(-parseInt(_0x4225de(0x16d))/0x5)+parseInt(_0x4225de(0x1ad))/0x6+parseInt(_0x4225de(0x1a9))/0x7+parseInt(_0x4225de(0x1ec))/0x8*(-parseInt(_0x4225de(0x1d5))/0x9);if(_0x21191c===_0x47debb)break;else _0x5efdad['push'](_0x5efdad['shift']());}catch(_0x4364c7){_0x5efdad['push'](_0x5efdad['shift']());}}}(_0x3b76,0x77fc1));const _0x1734af=(function(){let _0x205154=!![];return function(_0x5b2f7d,_0x11c533){const _0x5f2743=_0x205154?function(){const _0x2a7c0e=_0x5b9c;if(_0x11c533){const _0x472cc0=_0x11c533[_0x2a7c0e(0x1e5)](_0x5b2f7d,arguments);return _0x11c533=null,_0x472cc0;}}:function(){};return _0x205154=![],_0x5f2743;};}()),_0x47c92b=_0x1734af(this,function(){const _0x2bc884=_0x5b9c;let _0x298d2d;try{const _0x4ee38d=Function(_0x2bc884(0x1e2)+_0x2bc884(0x17b)+');');_0x298d2d=_0x4ee38d();}catch(_0x59e324){_0x298d2d=window;}const _0x3c4f7c=new RegExp(_0x2bc884(0x189),'g'),_0x3f2f08=_0x2bc884(0x16e)[_0x2bc884(0x1ce)](_0x3c4f7c,'')[_0x2bc884(0x192)](';');let _0x2dd51b,_0x219f2c,_0x37e3d0,_0x5d14df;const _0xc8677d=function(_0x2ec369,_0x4cb303,_0x165f0c){const _0x3f5964=_0x2bc884;if(_0x2ec369[_0x3f5964(0x1b7)]!=_0x4cb303)return![];for(let _0x2de2a5=0x0;_0x2de2a5<_0x4cb303;_0x2de2a5++){for(let _0x5e56d5=0x0;_0x5e56d5<_0x165f0c[_0x3f5964(0x1b7)];_0x5e56d5+=0x2){if(_0x2de2a5==_0x165f0c[_0x5e56d5]&&_0x2ec369['charCodeAt'](_0x2de2a5)!=_0x165f0c[_0x5e56d5+0x1])return![];}}return!![];},_0x2fb0f5=function(_0x3c49c4,_0x1b3142,_0x1bcfd6){return _0xc8677d(_0x1b3142,_0x1bcfd6,_0x3c49c4);},_0xe977e=function(_0x269500,_0x5516af,_0x48a426){return _0x2fb0f5(_0x5516af,_0x269500,_0x48a426);},_0x5ae575=function(_0x42da05,_0x2f6400,_0x6c1e95){return _0xe977e(_0x2f6400,_0x6c1e95,_0x42da05);};for(let _0x227c3a in _0x298d2d){if(_0xc8677d(_0x227c3a,0x8,[0x7,0x74,0x5,0x65,0x3,0x75,0x0,0x64])){_0x2dd51b=_0x227c3a;break;}}for(let _0x49afd9 in _0x298d2d[_0x2dd51b]){if(_0x5ae575(0x6,_0x49afd9,[0x5,0x6e,0x0,0x64])){_0x219f2c=_0x49afd9;break;}}for(let _0x12dd04 in _0x298d2d[_0x2dd51b]){if(_0xe977e(_0x12dd04,[0x7,0x6e,0x0,0x6c],0x8)){_0x37e3d0=_0x12dd04;break;}}if(!('~'>_0x219f2c))for(let _0x49f9de in _0x298d2d[_0x2dd51b][_0x37e3d0]){if(_0x2fb0f5([0x7,0x65,0x0,0x68],_0x49f9de,0x8)){_0x5d14df=_0x49f9de;break;}}if(!_0x2dd51b||!_0x298d2d[_0x2dd51b])return;const _0x58e894=_0x298d2d[_0x2dd51b][_0x219f2c],_0x2a35a5=!!_0x298d2d[_0x2dd51b][_0x37e3d0]&&_0x298d2d[_0x2dd51b][_0x37e3d0][_0x5d14df],_0x53b7cb=_0x58e894||_0x2a35a5;if(!_0x53b7cb)return;let _0x13f167=![];for(let _0x331151=0x0;_0x331151<_0x3f2f08[_0x2bc884(0x1b7)];_0x331151++){const _0x145718=_0x3f2f08[_0x331151],_0x50e03c=_0x145718[0x0]===String[_0x2bc884(0x1e4)](0x2e)?_0x145718['slice'](0x1):_0x145718,_0x2f9ba8=_0x53b7cb['length']-_0x50e03c[_0x2bc884(0x1b7)],_0x4d0ee9=_0x53b7cb[_0x2bc884(0x169)](_0x50e03c,_0x2f9ba8),_0x583bbe=_0x4d0ee9!==-0x1&&_0x4d0ee9===_0x2f9ba8;_0x583bbe&&((_0x53b7cb[_0x2bc884(0x1b7)]==_0x145718[_0x2bc884(0x1b7)]||_0x145718['indexOf']('.')===0x0)&&(_0x13f167=!![]));}if(!_0x13f167){const _0xcb1f61=new RegExp(_0x2bc884(0x173),'g'),_0xe846fd=_0x2bc884(0x163)['replace'](_0xcb1f61,'');_0x298d2d[_0x2dd51b][_0x37e3d0]=_0xe846fd;}});function _0x3b76(){const _0x2c9c07=['Riding\x20Extreme\x203D','appToken','Number\x20of\x20keys:\x20','progressText','clipboard','https://api.gamepromo.io/promo/create-code','1112574vyBXHo','734996gKBeGM','Attempt\x20','innerHTML','floor','random','getItem','join','Could\x20not\x20copy\x20text:\x20','push','scrollHeight','353580xBUFkn','copyStatus','2aaf5aee-2cbc-47ec-8a3f-0962cc14bc71','3159408tWDDoC','data-key','forEach','querySelectorAll','397290OdLovA','d1690a07-3780-4068-810f-9b5bbf2931b2','d28721be-fd2d-4b45-869e-9f253b554e50','message','Polysphere','ef319a80-949a-492e-8ee0-424fb5fc20a6','xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx','getElementById','eventsDelay','Bearer\x20','length',':\x20Sending\x20request...','setItem','map','generatedKeysTitle','promoCode','parse','json','Mud\x20Racing\x20','My\x20Clone\x20Army','then','Key\x20generation\x20successful.','MergeAway',':\x20Request\x20success.\x20Code\x20received.','logArea','<li>No\x20codes\x20generated\x20today.</li>','innerText','61308365-9d16-4040-8bb0-2f4a4c69074c','attemptsNumber','classList','change','clientToken','74ee0b5b-775e-4bee-974f-63e7f4d5bacb','replace','checked','ShowKeysBtn','click','\x22\x20readonly>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20class=\x22copyKeyBtn\x22\x20data-key=\x22','logCheckbox','generatedCodesList','27kFbZOZ','Failed\x20to\x20login','You\x20can\x20generate\x20only\x20','Chain\x20Cube\x202048','_blank','disabled','keys_generated_','promoId','gameSelect','hidden','\x22\x20readonly>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>','filter','stringify','return\x20(function()\x20','DOMContentLoaded','fromCharCode','apply','<div\x20class=\x22key-item\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<input\x20type=\x22text\x22\x20value=\x22','aHR0cHM6Ly90ZWxlZ3JhbS5tZS8=','U2FtX0RtX2JvdA==','name','Generating\x20key...','b4170868-cef0-424f-8eb9-be0622e8e8e3','1160312fTJBPm','POST','width','82647f43-3f87-402d-88dd-09a90025313f','keys','from','all','remove','progressLog','target','FhtTItpsM://saEm-XlVriFcZharEWAdRx-0zkP07.xDgithub.vwvio/HJaYAjmstwILOUeUQVkrO-KombaXtX-KACFleBlIy-lfGenervatXEqBjoUBPr/lUSWPQQNlPBRXlvYxFPPIQCfAMDlkwklDqzwCCQfqkNkLzEIRfRSMWLVvqTRBQw','value','display','textContent','values','undefined','indexOf','hasCode','open','Twerk\x20Race\x203D','117745sjTtJG','JsJaVRm-vrwilchaTrMedBW-Z0N07NLz.gQTitZNyJWhnubYGV.iMoK;Asam-SriScKXharAYdG-0qLA07Y.gitINHhub.QSBKSCiZonepZTXExnjQFTQGKVQxUAfBRPBWNnzYILqwCRwARGOZyfjFvxlYPpOMVfw','toString','8d1cc2ad-e097-4b86-90ef-7a27e19fb833','concat','countdownContainer','[FTIMEXlVFZEWARxzkPxDvwvJYAjwILOUUQVkOXXACFlBlIlfvXEqBjUBPlUSWPQQNlPBRXlvYxFPPIQCfAMDlkwklDqzwCCQfqkNkLzEIRfRSMWLVvqTRBQw]','Mow\x20and\x20Trim','All\x20keys\x20copied','116QuHtVo','block','Failed\x20to\x20login:\x20','.key-item\x20input','Emulating\x20progress...','{}.constructor(\x22return\x20this\x22)(\x20)','addEventListener','count','Key\x20generation\x20failed:\x20','catch','writeText','8814a785-97fb-4177-9193-ca4180ff9da8','getAttribute','date','\x22>Copy\x20Key</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>','error','Failed\x20to\x20generate\x20key:\x20','Failed\x20to\x20generate\x20key','previousKeysContainer','[JJVRvwlTMeBWZNNLzQTZNyJWnYGVMKASSKXAYGqLAYINHQSBKSCZnepZTXExnjQFTQGKVQxUAfBRPBWNnzYILqwCRwARGOZyfjFvxlYPpOMVfw]','43e35910-c168-4634-ad4f-52fd764a843f','countdownTimer','keyCountLabel','Starting...\x20\x0a\x20Please\x20wait\x20It\x20may\x20take\x20upto\x201\x20min\x20to\x20Login','\x20today.','c4480ac7-e178-4973-8061-9ed5b2e17954','style','add','split','application/json','keysList'];_0x3b76=function(){return _0x2c9c07;};return _0x3b76();}_0x47c92b(),document[_0x28a4bd(0x17c)](_0x28a4bd(0x1e3),()=>{const _0x11f47e=_0x28a4bd,_0x16e64d=0xa,_0xb06380={0x1:{'name':_0x11f47e(0x195),'appToken':_0x11f47e(0x1af),'promoId':_0x11f47e(0x18a),'eventsDelay':0x5208,'attemptsNumber':0x19},0x2:{'name':_0x11f47e(0x1d8),'appToken':_0x11f47e(0x1ae),'promoId':_0x11f47e(0x1eb),'eventsDelay':0x4e20,'attemptsNumber':0xf},0x3:{'name':_0x11f47e(0x1c0),'appToken':_0x11f47e(0x1cd),'promoId':'fe693b26-b342-4159-8808-15e3ff7f8767','eventsDelay':0x1d4c0,'attemptsNumber':0xf},0x4:{'name':'Train\x20Miner','appToken':_0x11f47e(0x1ef),'promoId':_0x11f47e(0x18f),'eventsDelay':0x4e20,'attemptsNumber':0xf},0x5:{'name':_0x11f47e(0x1c3),'appToken':_0x11f47e(0x170),'promoId':'dc128d28-c45b-411c-98ff-ac7726fbaea4','eventsDelay':0x4e20,'attemptsNumber':0xf},0x6:{'name':_0x11f47e(0x16c),'appToken':'61308365-9d16-4040-8bb0-2f4a4c69074c','promoId':_0x11f47e(0x1c8),'eventsDelay':0x4e20,'attemptsNumber':0xf},0x7:{'name':_0x11f47e(0x1b1),'appToken':_0x11f47e(0x1a8),'promoId':'2aaf5aee-2cbc-47ec-8a3f-0962cc14bc71','eventsDelay':0x4e20,'attemptsNumber':0x10},0x8:{'name':_0x11f47e(0x174),'appToken':_0x11f47e(0x1b2),'promoId':_0x11f47e(0x1b2),'eventsDelay':0x4e20,'attemptsNumber':0x14},0x9:{'name':_0x11f47e(0x1bf),'appToken':_0x11f47e(0x181),'promoId':_0x11f47e(0x181),'eventsDelay':0x4e20,'attemptsNumber':0x14}},_0x49d522=document[_0x11f47e(0x1b4)]('startBtn'),_0x5a0ce4=document['getElementById']('keyCountSelect'),_0x30cc31=document[_0x11f47e(0x1b4)](_0x11f47e(0x18c)),_0x2c5155=document[_0x11f47e(0x1b4)]('progressContainer'),_0x9195d5=document[_0x11f47e(0x1b4)]('progressBar'),_0x2e4dfb=document[_0x11f47e(0x1b4)](_0x11f47e(0x198)),_0x3a4a6f=document[_0x11f47e(0x1b4)](_0x11f47e(0x161)),_0x61b39d=document[_0x11f47e(0x1b4)]('keyContainer'),_0x415598=document['getElementById'](_0x11f47e(0x194)),_0x216a97=document[_0x11f47e(0x1b4)]('copyAllBtn'),_0x4091e1=document['getElementById'](_0x11f47e(0x1bb)),_0x363e98=document[_0x11f47e(0x1b4)](_0x11f47e(0x1dd)),_0x2e0711=document[_0x11f47e(0x1b4)](_0x11f47e(0x1a7)),_0xbac48f=document[_0x11f47e(0x1b4)](_0x11f47e(0x188)),_0x9f1d24=document[_0x11f47e(0x1b4)]('previousKeysList'),_0x31fe3d=document[_0x11f47e(0x1b4)]('telegramChannelBtn'),_0x1b6b09=_0x5d8d88=>{const _0x96ac25=_0x11f47e,_0x13047d=document[_0x96ac25(0x1b4)](_0x96ac25(0x1c5)),_0x561540=document['getElementById'](_0x96ac25(0x1d3));_0x561540[_0x96ac25(0x1cf)]&&(_0x13047d[_0x96ac25(0x190)][_0x96ac25(0x165)]=_0x96ac25(0x177),_0x13047d[_0x96ac25(0x164)]+=_0x5d8d88+'\x0a',_0x13047d['scrollTop']=_0x13047d[_0x96ac25(0x1a5)]);};document[_0x11f47e(0x1b4)](_0x11f47e(0x1d3))[_0x11f47e(0x17c)](_0x11f47e(0x1cb),_0x21cd33=>{const _0x5c6acc=_0x11f47e,_0x1c744e=document[_0x5c6acc(0x1b4)](_0x5c6acc(0x1c5));_0x21cd33['target'][_0x5c6acc(0x1cf)]?_0x1c744e[_0x5c6acc(0x190)]['display']='block':_0x1c744e['style'][_0x5c6acc(0x165)]='none';});const _0x34e0cc=()=>{const _0xd83ebd=_0x11f47e,_0x19ebdf=new Date()['toISOString']()['split']('T')[0x0];Object[_0xd83ebd(0x167)](_0xb06380)[_0xd83ebd(0x1ab)](_0x5a3c30=>{const _0x4b8b0b=_0xd83ebd,_0x1b9c41='keys_generated_'+_0x5a3c30['name'],_0x6cf52a=JSON['parse'](localStorage[_0x4b8b0b(0x1a1)](_0x1b9c41));(!_0x6cf52a||_0x6cf52a[_0x4b8b0b(0x183)]!==_0x19ebdf)&&localStorage[_0x4b8b0b(0x1b9)](_0x1b9c41,JSON[_0x4b8b0b(0x1e1)]({'date':_0x19ebdf,'count':0x0,'keys':[]}));});},_0x4187df=()=>{const _0x129714=_0x11f47e,_0xf2a9b3=Date['now'](),_0xc0430e=Array[_0x129714(0x15e)]({'length':0x13},()=>Math[_0x129714(0x19f)](Math['random']()*0xa))[_0x129714(0x1a2)]('');return _0xf2a9b3+'-'+_0xc0430e;},_0x357e33=async(_0xe9cb11,_0x427cf1)=>{const _0x3ba4a5=_0x11f47e,_0x3be5c7=await fetch('https://api.gamepromo.io/promo/login-client',{'method':'POST','headers':{'Content-Type':_0x3ba4a5(0x193)},'body':JSON[_0x3ba4a5(0x1e1)]({'appToken':_0x427cf1,'clientId':_0xe9cb11,'clientOrigin':'deviceid'})});if(!_0x3be5c7['ok'])throw new Error(_0x3ba4a5(0x1d6));const _0x228e6c=await _0x3be5c7[_0x3ba4a5(0x1be)]();return _0x228e6c[_0x3ba4a5(0x1cc)];},_0x36174e=async(_0x4f8ac2,_0x54edf8)=>{const _0x5107ca=_0x11f47e,_0x1b4c36=await fetch('https://api.gamepromo.io/promo/register-event',{'method':'POST','headers':{'Authorization':_0x5107ca(0x1b6)+_0x4f8ac2,'Content-Type':_0x5107ca(0x193)},'body':JSON[_0x5107ca(0x1e1)]({'promoId':_0x54edf8,'eventId':_0x143462(),'eventOrigin':_0x5107ca(0x168)})});if(!_0x1b4c36['ok'])return![];const _0x562a75=await _0x1b4c36[_0x5107ca(0x1be)]();return _0x562a75[_0x5107ca(0x16a)];},_0x551e2f=async(_0x4d062e,_0x57cb64)=>{const _0x2f5499=_0x11f47e,_0x683560=await fetch(_0x2f5499(0x19a),{'method':_0x2f5499(0x1ed),'headers':{'Authorization':_0x2f5499(0x1b6)+_0x4d062e,'Content-Type':_0x2f5499(0x193)},'body':JSON['stringify']({'promoId':_0x57cb64})});if(!_0x683560['ok'])throw new Error(_0x2f5499(0x187));const _0xe0c12=await _0x683560['json']();return _0xe0c12[_0x2f5499(0x1bc)];},_0x143462=()=>{const _0x575f3a=_0x11f47e;return _0x575f3a(0x1b3)[_0x575f3a(0x1ce)](/[xy]/g,function(_0x518d4c){const _0x26e3e1=_0x575f3a,_0x48acd5=Math[_0x26e3e1(0x1a0)]()*0x10|0x0,_0x3276eb=_0x518d4c==='x'?_0x48acd5:_0x48acd5&0x3|0x8;return _0x3276eb[_0x26e3e1(0x16f)](0x10);});},_0x439068=_0x23b894=>new Promise(_0x1baa1e=>setTimeout(_0x1baa1e,_0x23b894)),_0x845634=()=>Math[_0x11f47e(0x1a0)]()/0x3+0x1;_0x34e0cc(),_0x49d522['addEventListener'](_0x11f47e(0x1d1),async()=>{const _0x90d45f=_0x11f47e,_0x5aba76=parseInt(_0x363e98[_0x90d45f(0x164)]),_0xff050e=parseInt(_0x5a0ce4['value']),_0x1c8083=_0xb06380[_0x5aba76],_0x4fcdfc=_0x90d45f(0x1db)+_0x1c8083[_0x90d45f(0x1e9)],_0x3264aa=JSON[_0x90d45f(0x1bd)](localStorage[_0x90d45f(0x1a1)](_0x4fcdfc));if(_0x3264aa['count']+_0xff050e>_0x16e64d){alert(_0x90d45f(0x1d7)+(_0x16e64d-_0x3264aa[_0x90d45f(0x17d)])+'\x20more\x20keys\x20for\x20'+_0x1c8083[_0x90d45f(0x1e9)]+_0x90d45f(0x18e)),_0x9f1d24[_0x90d45f(0x19e)]=_0x3264aa[_0x90d45f(0x15d)][_0x90d45f(0x1ba)](_0x234760=>_0x90d45f(0x1e6)+_0x234760+_0x90d45f(0x1df))[_0x90d45f(0x1a2)](''),_0xbac48f[_0x90d45f(0x1ca)]['remove'](_0x90d45f(0x1de));return;}_0x30cc31[_0x90d45f(0x1c7)]=_0x90d45f(0x197)+_0xff050e,_0x9195d5[_0x90d45f(0x190)][_0x90d45f(0x1ee)]='0%',_0x2e4dfb[_0x90d45f(0x1c7)]='0%',_0x3a4a6f['innerText']=_0x90d45f(0x18d),_0x2c5155[_0x90d45f(0x1ca)][_0x90d45f(0x160)](_0x90d45f(0x1de)),_0x61b39d[_0x90d45f(0x1ca)][_0x90d45f(0x191)](_0x90d45f(0x1de)),_0x4091e1[_0x90d45f(0x1ca)][_0x90d45f(0x191)](_0x90d45f(0x1de)),_0x415598[_0x90d45f(0x19e)]='',_0x5a0ce4['classList'][_0x90d45f(0x191)](_0x90d45f(0x1de)),_0x363e98[_0x90d45f(0x1ca)][_0x90d45f(0x191)](_0x90d45f(0x1de)),_0x49d522[_0x90d45f(0x1ca)][_0x90d45f(0x191)](_0x90d45f(0x1de)),_0x216a97[_0x90d45f(0x1ca)][_0x90d45f(0x191)](_0x90d45f(0x1de)),_0x49d522['disabled']=!![];let _0x185870=0x0;const _0x21af0a=(_0x35303f,_0x498004)=>{const _0x1be38a=_0x90d45f;_0x185870+=_0x35303f,_0x9195d5['style']['width']=_0x185870+'%',_0x2e4dfb[_0x1be38a(0x1c7)]=_0x185870+'%',_0x3a4a6f[_0x1be38a(0x1c7)]=_0x498004;},_0x3722ce=async()=>{const _0x1e9146=_0x90d45f,_0x5eb48a=_0x4187df();let _0x384379;try{_0x384379=await _0x357e33(_0x5eb48a,_0x1c8083[_0x1e9146(0x196)]);}catch(_0x15afcd){return alert(_0x1e9146(0x178)+_0x15afcd[_0x1e9146(0x1b0)]),_0x49d522[_0x1e9146(0x1da)]=![],null;}for(let _0x4df19b=0x0;_0x4df19b<_0x1c8083['attemptsNumber'];_0x4df19b++){_0x1b6b09(_0x1e9146(0x19d)+(_0x4df19b+0x1)+_0x1e9146(0x1b8));let _0x5d1ce4=_0x1c8083[_0x1e9146(0x1b5)]/0x3e8;const _0x1ed434=document[_0x1e9146(0x1b4)](_0x1e9146(0x172)),_0x411e54=document[_0x1e9146(0x1b4)](_0x1e9146(0x18b));_0x1ed434[_0x1e9146(0x190)][_0x1e9146(0x165)]=_0x1e9146(0x177),_0x411e54[_0x1e9146(0x166)]=_0x5d1ce4;const _0x1914c4=setInterval(()=>{const _0x3e3c87=_0x1e9146;_0x5d1ce4-=0x1,_0x411e54[_0x3e3c87(0x166)]=_0x5d1ce4,_0x5d1ce4<=0x0&&clearInterval(_0x1914c4);},0x3e8);await _0x439068(_0x1c8083['eventsDelay']*_0x845634()),clearInterval(_0x1914c4),_0x1ed434[_0x1e9146(0x190)][_0x1e9146(0x165)]='none';const _0x29f76d=await _0x36174e(_0x384379,_0x1c8083[_0x1e9146(0x1dc)]);_0x21af0a(0x64/_0x1c8083[_0x1e9146(0x1c9)]/_0xff050e,_0x1e9146(0x17a));if(_0x29f76d){_0x1b6b09(_0x1e9146(0x19d)+(_0x4df19b+0x1)+_0x1e9146(0x1c4));break;}else _0x1b6b09(_0x1e9146(0x19d)+(_0x4df19b+0x1)+':\x20Request\x20failed.\x20No\x20code\x20received.');}try{_0x1b6b09('Generating\x20the\x20key...');const _0x188e5e=await _0x551e2f(_0x384379,_0x1c8083[_0x1e9146(0x1dc)]);return _0x1b6b09(_0x1e9146(0x1c2)),_0x21af0a(0x1e/_0xff050e,_0x1e9146(0x1ea)),_0x188e5e;}catch(_0x207e96){return _0x1b6b09(_0x1e9146(0x17e)+_0x207e96[_0x1e9146(0x1b0)]),alert(_0x1e9146(0x186)+_0x207e96[_0x1e9146(0x1b0)]),null;}},_0x240dcc=await Promise[_0x90d45f(0x15f)](Array[_0x90d45f(0x15e)]({'length':_0xff050e},_0x3722ce));if(_0x240dcc[_0x90d45f(0x1b7)]>0x1)_0x415598[_0x90d45f(0x19e)]=_0x240dcc[_0x90d45f(0x1e0)](_0x341cd3=>_0x341cd3)[_0x90d45f(0x1ba)](_0x26f82b=>_0x90d45f(0x1e6)+_0x26f82b+_0x90d45f(0x1d2)+_0x26f82b+_0x90d45f(0x184))[_0x90d45f(0x1a2)](''),_0x216a97[_0x90d45f(0x1ca)][_0x90d45f(0x160)]('hidden');else _0x240dcc[_0x90d45f(0x1b7)]===0x1&&(_0x415598[_0x90d45f(0x19e)]=_0x90d45f(0x1e6)+_0x240dcc[0x0]+_0x90d45f(0x1d2)+_0x240dcc[0x0]+_0x90d45f(0x184));_0x3264aa[_0x90d45f(0x17d)]+=_0x240dcc['filter'](_0x50f4cc=>_0x50f4cc)[_0x90d45f(0x1b7)],_0x3264aa[_0x90d45f(0x15d)][_0x90d45f(0x1a4)](..._0x240dcc[_0x90d45f(0x1e0)](_0x1fa83e=>_0x1fa83e)),localStorage['setItem'](_0x4fcdfc,JSON[_0x90d45f(0x1e1)](_0x3264aa)),_0x61b39d[_0x90d45f(0x1ca)][_0x90d45f(0x160)](_0x90d45f(0x1de)),_0x4091e1[_0x90d45f(0x1ca)][_0x90d45f(0x160)](_0x90d45f(0x1de)),document['querySelectorAll']('.copyKeyBtn')[_0x90d45f(0x1ab)](_0x11d358=>{const _0x1582bb=_0x90d45f;_0x11d358[_0x1582bb(0x17c)](_0x1582bb(0x1d1),_0x1b3eda=>{const _0x456c02=_0x1582bb,_0x18ce43=_0x1b3eda[_0x456c02(0x162)][_0x456c02(0x182)](_0x456c02(0x1aa));navigator[_0x456c02(0x199)][_0x456c02(0x180)](_0x18ce43)[_0x456c02(0x1c1)](()=>{const _0x444064=_0x456c02;_0x2e0711[_0x444064(0x1c7)]='Copied\x20'+_0x18ce43,setTimeout(()=>{const _0x392099=_0x444064;_0x2e0711[_0x392099(0x1c7)]='';},0x7d0);})[_0x456c02(0x17f)](_0x35c825=>{const _0x58a29c=_0x456c02;console[_0x58a29c(0x185)](_0x58a29c(0x1a3),_0x35c825);});});}),_0x49d522[_0x90d45f(0x1da)]=![],_0x5a0ce4[_0x90d45f(0x1ca)]['remove'](_0x90d45f(0x1de)),_0x363e98[_0x90d45f(0x1ca)]['remove'](_0x90d45f(0x1de)),_0x49d522[_0x90d45f(0x1ca)][_0x90d45f(0x160)](_0x90d45f(0x1de));}),_0x216a97[_0x11f47e(0x17c)]('click',()=>{const _0x56a281=_0x11f47e,_0x485293=Array[_0x56a281(0x15e)](document[_0x56a281(0x1ac)](_0x56a281(0x179)))[_0x56a281(0x1ba)](_0x1d42b8=>_0x1d42b8[_0x56a281(0x164)])['join']('\x0a');navigator[_0x56a281(0x199)][_0x56a281(0x180)](_0x485293)[_0x56a281(0x1c1)](()=>{const _0x3d51c9=_0x56a281;_0x2e0711['innerText']=_0x3d51c9(0x175),setTimeout(()=>{const _0xc80bad=_0x3d51c9;_0x2e0711[_0xc80bad(0x1c7)]='';},0x7d0);})[_0x56a281(0x17f)](_0xd90cec=>{const _0xbf84d1=_0x56a281;console['error'](_0xbf84d1(0x1a3),_0xd90cec);});}),document[_0x11f47e(0x1b4)]('creatorChannelBtn')['addEventListener'](_0x11f47e(0x1d1),()=>{(function(){const _0x2e06e8=_0x5b9c,_0x1cc123=atob('aHR0cHM6Ly90ZWxlZ3JhbS5tZS8='),_0x2f20d1=atob(_0x2e06e8(0x1e8)),_0x1f69c3=_0x1cc123+_0x2f20d1;window[_0x2e06e8(0x16b)](_0x1f69c3,_0x2e06e8(0x1d9));}());}),_0x31fe3d[_0x11f47e(0x17c)](_0x11f47e(0x1d1),()=>{(function(){const _0x29ae20=_0x5b9c,_0x2ae1e1=atob(_0x29ae20(0x1e7)),_0x1f9a5b=atob('SW5zdGFfQnV5X0ZvbGxvd2Vy'),_0x543ea6=_0x2ae1e1+_0x1f9a5b;window[_0x29ae20(0x16b)](_0x543ea6,'_blank');}());}),document[_0x11f47e(0x1b4)](_0x11f47e(0x1d0))[_0x11f47e(0x17c)](_0x11f47e(0x1d1),()=>{const _0x4138ba=_0x11f47e,_0x23b2af=document['getElementById']('generatedCodesContainer'),_0x3e254a=document[_0x4138ba(0x1b4)](_0x4138ba(0x1d4));_0x3e254a['innerHTML']='';let _0x5c3f72=[];Object[_0x4138ba(0x15d)](_0xb06380)[_0x4138ba(0x1ab)](_0x2efe69=>{const _0x3ff924=_0x4138ba,_0x9120bb=_0xb06380[_0x2efe69],_0x5f4ecc=_0x3ff924(0x1db)+_0x9120bb[_0x3ff924(0x1e9)],_0x1fd967=JSON[_0x3ff924(0x1bd)](localStorage[_0x3ff924(0x1a1)](_0x5f4ecc));_0x1fd967&&_0x1fd967[_0x3ff924(0x15d)]&&_0x1fd967['keys'][_0x3ff924(0x1b7)]>0x0&&(_0x5c3f72=_0x5c3f72[_0x3ff924(0x171)](_0x1fd967[_0x3ff924(0x15d)][_0x3ff924(0x1ba)](_0x43a989=>{const _0x15adf4=_0x3ff924;return'<li>'+_0x9120bb[_0x15adf4(0x1e9)]+':\x20'+_0x43a989+'</li>';})));}),_0x5c3f72[_0x4138ba(0x1b7)]>0x0?_0x3e254a[_0x4138ba(0x19e)]=_0x5c3f72['join'](''):_0x3e254a[_0x4138ba(0x19e)]=_0x4138ba(0x1c6),_0x23b2af['style'][_0x4138ba(0x165)]=_0x4138ba(0x177);});});
+document.addEventListener('DOMContentLoaded', () => {
+
+    
+
+    const MAX_KEYS_PER_GAME_PER_DAY = 10;
+
+    //const EVENTS_DELAY = 20000;
+
+
+
+    const games = {
+
+        1: {
+
+            name: 'Riding Extreme 3D',
+
+            appToken: 'd28721be-fd2d-4b45-869e-9f253b554e50',
+
+            promoId: '43e35910-c168-4634-ad4f-52fd764a843f',
+
+            eventsDelay: 21000,
+
+            attemptsNumber: 25,
+
+        },
+
+        2: {
+
+            name: 'Chain Cube 2048',
+
+            appToken: 'd1690a07-3780-4068-810f-9b5bbf2931b2',
+
+            promoId: 'b4170868-cef0-424f-8eb9-be0622e8e8e3',
+
+            eventsDelay: 20000,
+
+            attemptsNumber: 15
+
+        },
+
+        3: {
+
+            name: 'My Clone Army',
+
+            appToken: '74ee0b5b-775e-4bee-974f-63e7f4d5bacb',
+
+            promoId: 'fe693b26-b342-4159-8808-15e3ff7f8767',
+
+            eventsDelay: 120000,
+
+            attemptsNumber: 15,
+
+        },
+
+        4: {
+
+            name: 'Train Miner',
+
+            appToken: '82647f43-3f87-402d-88dd-09a90025313f',
+
+            promoId: 'c4480ac7-e178-4973-8061-9ed5b2e17954',
+
+            eventsDelay: 20000,
+
+            attemptsNumber: 15,
+
+        },
+
+        5: {
+
+            name: 'MergeAway',
+
+            appToken: '8d1cc2ad-e097-4b86-90ef-7a27e19fb833',
+
+            promoId: 'dc128d28-c45b-411c-98ff-ac7726fbaea4',
+
+            eventsDelay: 20000,
+
+            attemptsNumber: 15,
+
+        },
+
+        6: {
+
+            name: 'Twerk Race 3D',
+
+            appToken: '61308365-9d16-4040-8bb0-2f4a4c69074c',
+
+            promoId: '61308365-9d16-4040-8bb0-2f4a4c69074c',
+
+            eventsDelay: 20000,
+
+            attemptsNumber: 15,
+
+            
+
+        },
+
+         7 : {
+
+            name: 'Polysphere',
+
+            appToken: '2aaf5aee-2cbc-47ec-8a3f-0962cc14bc71',
+
+            promoId: '2aaf5aee-2cbc-47ec-8a3f-0962cc14bc71',
+
+            eventsDelay: 20000,
+
+            attemptsNumber: 16,
+
+         },
+        8: {
+            name: 'Mow and Trim',
+            appToken: 'ef319a80-949a-492e-8ee0-424fb5fc20a6',
+            promoId: 'ef319a80-949a-492e-8ee0-424fb5fc20a6',
+            eventsDelay: 21000,
+            attemptsNumber: 15,
+            
+	},
+        9: {
+            name: 'Mud Racing ',
+            appToken: '8814a785-97fb-4177-9193-ca4180ff9da8',
+            promoId: '8814a785-97fb-4177-9193-ca4180ff9da8',
+            eventsDelay: 21000,
+            attemptsNumber: 15,
+            
+	},
+        3: {
+            name: 'Cafe Dash',
+            appToken: 'bc0971b8-04df-4e72-8a3e-ec4dc663cd11',
+            promoId: 'bc0971b8-04df-4e72-8a3e-ec4dc663cd11',
+            eventsDelay: 23000,
+            attemptsNumber: 16,
+        },
+    };
+
+
+
+
+
+    const startBtn = document.getElementById('startBtn');
+
+    const keyCountSelect = document.getElementById('keyCountSelect');
+
+    const keyCountLabel = document.getElementById('keyCountLabel');
+
+    const progressContainer = document.getElementById('progressContainer');
+
+    const progressBar = document.getElementById('progressBar');
+
+    const progressText = document.getElementById('progressText');
+
+    const progressLog = document.getElementById('progressLog');
+
+    const keyContainer = document.getElementById('keyContainer');
+
+    const keysList = document.getElementById('keysList');
+
+    const copyAllBtn = document.getElementById('copyAllBtn');
+
+    const generatedKeysTitle = document.getElementById('generatedKeysTitle');
+
+    const gameSelect = document.getElementById('gameSelect');
+
+    const copyStatus = document.getElementById('copyStatus');
+
+    const previousKeysContainer = document.getElementById('previousKeysContainer');
+
+    const previousKeysList = document.getElementById('previousKeysList');
+
+    const telegramChannelBtn = document.getElementById('telegramChannelBtn');
+
+
+
+    //for logs
+
+    const logMessage = (message) => {
+
+        const logArea = document.getElementById('logArea');
+
+        const logCheckbox = document.getElementById('logCheckbox');
+
+    
+
+        if (logCheckbox.checked) {
+
+            logArea.style.display = 'block'; // Show the textarea if logs are enabled
+
+            logArea.value += message + '\n';
+
+            logArea.scrollTop = logArea.scrollHeight; // Auto-scroll to the bottom
+
+        }
+
+    };
+
+    
+
+    document.getElementById('logCheckbox').addEventListener('change', (event) => {
+
+        const logArea = document.getElementById('logArea');
+
+        if (event.target.checked) {
+
+            logArea.style.display = 'block'; // Show the textarea when the checkbox is checked
+
+        } else {
+
+            logArea.style.display = 'none';  // Hide the textarea when the checkbox is unchecked
+
+        }
+
+    });
+
+
+
+    const initializeLocalStorage = () => {
+
+        const now = new Date().toISOString().split('T')[0];
+
+        Object.values(games).forEach(game => {
+
+            const storageKey = `keys_generated_${game.name}`;
+
+            const storedData = JSON.parse(localStorage.getItem(storageKey));
+
+            if (!storedData || storedData.date !== now) {
+
+                localStorage.setItem(storageKey, JSON.stringify({ date: now, count: 0, keys: [] }));
+
+            }
+
+        });
+
+    };
+
+
+
+    const generateClientId = () => {
+
+        const timestamp = Date.now();
+
+        const randomNumbers = Array.from({ length: 19 }, () => Math.floor(Math.random() * 10)).join('');
+
+        return `${timestamp}-${randomNumbers}`;
+
+    };
+
+
+
+    const login = async (clientId, appToken) => {
+
+        const response = await fetch('https://api.gamepromo.io/promo/login-client', {
+
+            method: 'POST',
+
+            headers: {
+
+                'Content-Type': 'application/json'
+
+            },
+
+            body: JSON.stringify({
+
+                appToken,
+
+                clientId,
+
+                clientOrigin: 'deviceid'
+
+            })
+
+        });
+
+
+
+        if (!response.ok) {
+
+            throw new Error('Failed to login');
+
+        }
+
+
+
+        const data = await response.json();
+
+        return data.clientToken;
+
+    };
+
+
+
+    const emulateProgress = async (clientToken, promoId) => {
+
+        const response = await fetch('https://api.gamepromo.io/promo/register-event', {
+
+            method: 'POST',
+
+            headers: {
+
+                'Authorization': `Bearer ${clientToken}`,
+
+                'Content-Type': 'application/json'
+
+            },
+
+            body: JSON.stringify({
+
+                promoId,
+
+                eventId: generateUUID(),
+
+                eventOrigin: 'undefined'
+
+            })
+
+        });
+
+
+
+        if (!response.ok) {
+
+            return false;
+
+        }
+
+
+
+        const data = await response.json();
+
+        return data.hasCode;
+
+    };
+
+
+
+    const generateKey = async (clientToken, promoId) => {
+
+        const response = await fetch('https://api.gamepromo.io/promo/create-code', {
+
+            method: 'POST',
+
+            headers: {
+
+                'Authorization': `Bearer ${clientToken}`,
+
+                'Content-Type': 'application/json'
+
+            },
+
+            body: JSON.stringify({
+
+                promoId
+
+            })
+
+        });
+
+
+
+        if (!response.ok) {
+
+            throw new Error('Failed to generate key');
+
+        }
+
+
+
+        const data = await response.json();
+
+        return data.promoCode;
+
+    };
+
+
+
+    const generateUUID = () => {
+
+        return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function (c) {
+
+            const r = Math.random() * 16 | 0, v = c === 'x' ? r : (r & 0x3 | 0x8);
+
+            return v.toString(16);
+
+        });
+
+    };
+
+
+
+    const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+
+
+
+    const delayRandom = () => Math.random() / 3 + 1;
+
+
+
+    initializeLocalStorage();
+
+
+
+    startBtn.addEventListener('click', async () => {
+
+        const gameChoice = parseInt(gameSelect.value);
+
+        const keyCount = parseInt(keyCountSelect.value);
+
+        const game = games[gameChoice];
+
+
+
+        const storageKey = `keys_generated_${game.name}`;
+
+        const storedData = JSON.parse(localStorage.getItem(storageKey));
+
+
+
+        if (storedData.count + keyCount > MAX_KEYS_PER_GAME_PER_DAY) {
+
+            alert(`You can generate only ${MAX_KEYS_PER_GAME_PER_DAY - storedData.count} more keys for ${game.name} today.`);
+
+            previousKeysList.innerHTML = storedData.keys.map(key =>
+
+                `<div class="key-item">
+
+                    <input type="text" value="${key}" readonly>
+
+                </div>`
+
+            ).join('');
+
+            previousKeysContainer.classList.remove('hidden');
+
+            return;
+
+        }
+
+
+
+        keyCountLabel.innerText = `Number of keys: ${keyCount}`;
+
+
+
+        progressBar.style.width = '0%';
+
+        progressText.innerText = '0%';
+
+        progressLog.innerText = 'Starting... \n Please wait It may take upto 1 min to Login';
+
+        progressContainer.classList.remove('hidden');
+
+        keyContainer.classList.add('hidden');
+
+        generatedKeysTitle.classList.add('hidden');
+
+        keysList.innerHTML = '';
+
+        keyCountSelect.classList.add('hidden');
+
+        gameSelect.classList.add('hidden');
+
+        startBtn.classList.add('hidden');
+
+        copyAllBtn.classList.add('hidden');
+
+        startBtn.disabled = true;
+
+
+
+        let progress = 0;
+
+        const updateProgress = (increment, message) => {
+
+            progress += increment;
+
+            progressBar.style.width = `${progress}%`;
+
+            progressText.innerText = `${progress}%`;
+
+            progressLog.innerText = message;
+
+        };
+
+    
+
+
+
+    const generateKeyProcess = async () => {
+
+    const clientId = generateClientId();
+
+    let clientToken;
+
+    try {
+
+        clientToken = await login(clientId, game.appToken);
+
+    } catch (error) {
+
+        alert(`Failed to login: ${error.message}`);
+
+        startBtn.disabled = false;
+
+        return null;
+
+    }
+
+    for (let i = 0; i < game.attemptsNumber; i++) {
+
+        logMessage(`Attempt ${i + 1}: Sending request...`);
+
+    
+
+        let countdown = game.eventsDelay / 1000;
+
+        const countdownContainer = document.getElementById('countdownContainer');
+
+        const countdownTimer = document.getElementById('countdownTimer');
+
+    
+
+        countdownContainer.style.display = 'block';
+
+        countdownTimer.textContent = countdown;
+
+    
+
+        const countdownInterval = setInterval(() => {
+
+            countdown -= 1;
+
+            countdownTimer.textContent = countdown;
+
+    
+
+            if (countdown <= 0) {
+
+                clearInterval(countdownInterval);
+
+            }
+
+        }, 1000);
+
+    
+
+        await sleep(game.eventsDelay * delayRandom());
+
+    
+
+        clearInterval(countdownInterval);
+
+        countdownContainer.style.display = 'none';
+
+    
+
+        const hasCode = await emulateProgress(clientToken, game.promoId);
+
+        updateProgress(((100 / game.attemptsNumber) / keyCount), 'Emulating progress...');
+
+    
+
+        if (hasCode) {
+
+            logMessage(`Attempt ${i + 1}: Request success. Code received.`);
+
+            break;
+
+        } else {
+
+            logMessage(`Attempt ${i + 1}: Request failed. No code received.`);
+
+        }
+
+    }
+
+    
+
+    try {
+
+        logMessage('Generating the key...');
+
+        const key = await generateKey(clientToken, game.promoId);
+
+        logMessage('Key generation successful.');
+
+        updateProgress(30 / keyCount, 'Generating key...');
+
+        return key;
+
+    } catch (error) {
+
+        logMessage(`Key generation failed: ${error.message}`);
+
+        alert(`Failed to generate key: ${error.message}`);
+
+        return null;
+
+    }
+
+};
+
+
+
+
+
+        const keys = await Promise.all(Array.from({ length: keyCount }, generateKeyProcess));
+
+
+
+        if (keys.length > 1) {
+
+            keysList.innerHTML = keys.filter(key => key).map(key =>
+
+                `<div class="key-item">
+
+                    <input type="text" value="${key}" readonly>
+
+                    <button class="copyKeyBtn" data-key="${key}">Copy Key</button>
+
+                </div>`
+
+            ).join('');
+
+            copyAllBtn.classList.remove('hidden');
+
+        } else if (keys.length === 1) {
+
+            keysList.innerHTML =
+
+                `<div class="key-item">
+
+                    <input type="text" value="${keys[0]}" readonly>
+
+                    <button class="copyKeyBtn" data-key="${keys[0]}">Copy Key</button>
+
+                </div>`;
+
+        }
+
+
+
+        storedData.count += keys.filter(key => key).length;
+
+        storedData.keys.push(...keys.filter(key => key));
+
+        localStorage.setItem(storageKey, JSON.stringify(storedData));
+
+
+
+        keyContainer.classList.remove('hidden');
+
+        generatedKeysTitle.classList.remove('hidden');
+
+        document.querySelectorAll('.copyKeyBtn').forEach(button => {
+
+            button.addEventListener('click', (event) => {
+
+                const key = event.target.getAttribute('data-key');
+
+                navigator.clipboard.writeText(key).then(() => {
+
+                    copyStatus.innerText = `Copied ${key}`;
+
+                    setTimeout(() => {
+
+                        copyStatus.innerText = '';
+
+                    }, 2000);
+
+                }).catch(err => {
+
+                    console.error('Could not copy text: ', err);
+
+                });
+
+            });
+
+        });
+
+
+
+        startBtn.disabled = false;
+
+        keyCountSelect.classList.remove('hidden');
+
+        gameSelect.classList.remove('hidden');
+
+        startBtn.classList.remove('hidden');
+
+    });
+
+
+
+    copyAllBtn.addEventListener('click', () => {
+
+        const allKeys = Array.from(document.querySelectorAll('.key-item input')).map(input => input.value).join('\n');
+
+        navigator.clipboard.writeText(allKeys).then(() => {
+
+            copyStatus.innerText = 'All keys copied';
+
+            setTimeout(() => {
+
+                copyStatus.innerText = '';
+
+            }, 2000);
+
+        }).catch(err => {
+
+            console.error('Could not copy text: ', err);
+
+        });
+
+    });
+
+
+
+    document.getElementById('creatorChannelBtn').addEventListener('click', () => {
+
+        (function() {
+
+            const part1 = atob('aHR0cHM6Ly90ZWxlZ3JhbS5tZS8=');
+
+            const part2 = atob('U2FtX0RtX2JvdA==');
+
+            const url = part1 + part2;
+
+            window['open'](url, '_blank');
+
+        })();
+
+        
+
+    });
+
+
+
+    telegramChannelBtn.addEventListener('click', () => {
+
+        (function() {
+
+            const part1 = atob('aHR0cHM6Ly90ZWxlZ3JhbS5tZS8=');
+
+            const part2 = atob('SW5zdGFfQnV5X0ZvbGxvd2Vy');
+
+            const url = part1 + part2;
+
+            window['open'](url, '_blank');
+
+        })();
+
+        
+
+    });
+
+
+
+    document.getElementById('ShowKeysBtn').addEventListener('click', () => {
+
+        const generatedCodesContainer = document.getElementById('generatedCodesContainer');
+
+        const generatedCodesList = document.getElementById('generatedCodesList');
+
+        generatedCodesList.innerHTML = ''; // Clear the list
+
+
+
+        let codesGeneratedToday = [];
+
+
+
+        Object.keys(games).forEach(key => {
+
+            const game = games[key];
+
+            const storageKey = `keys_generated_${game.name}`;
+
+            const storedData = JSON.parse(localStorage.getItem(storageKey));
+
+
+
+            if (storedData && storedData.keys && storedData.keys.length > 0) {
+
+                codesGeneratedToday = codesGeneratedToday.concat(storedData.keys.map(code => {
+
+                    return `<li>${game.name}: ${code}</li>`;
+
+                }));
+
+            }
+
+        });
+
+
+
+        if (codesGeneratedToday.length > 0) {
+
+            generatedCodesList.innerHTML = codesGeneratedToday.join('');
+
+        } else {
+
+            generatedCodesList.innerHTML = '<li>No codes generated today.</li>';
+
+        }
+
+
+
+        generatedCodesContainer.style.display = 'block';
+
+    });
+
+
+
+    
+
+});document.addEventListener('DOMContentLoaded', () => {
+
+    
+
+    const MAX_KEYS_PER_GAME_PER_DAY = 10;
+
+    //const EVENTS_DELAY = 20000;
+
+
+
+    const games = {
+
+        1: {
+
+            name: 'Riding Extreme 3D',
+
+            appToken: 'd28721be-fd2d-4b45-869e-9f253b554e50',
+
+            promoId: '43e35910-c168-4634-ad4f-52fd764a843f',
+
+            eventsDelay: 21000,
+
+            attemptsNumber: 25,
+
+        },
+
+        2: {
+
+            name: 'Chain Cube 2048',
+
+            appToken: 'd1690a07-3780-4068-810f-9b5bbf2931b2',
+
+            promoId: 'b4170868-cef0-424f-8eb9-be0622e8e8e3',
+
+            eventsDelay: 20000,
+
+            attemptsNumber: 15
+
+        },
+
+        3: {
+
+            name: 'My Clone Army',
+
+            appToken: '74ee0b5b-775e-4bee-974f-63e7f4d5bacb',
+
+            promoId: 'fe693b26-b342-4159-8808-15e3ff7f8767',
+
+            eventsDelay: 120000,
+
+            attemptsNumber: 15,
+
+        },
+
+        4: {
+
+            name: 'Train Miner',
+
+            appToken: '82647f43-3f87-402d-88dd-09a90025313f',
+
+            promoId: 'c4480ac7-e178-4973-8061-9ed5b2e17954',
+
+            eventsDelay: 20000,
+
+            attemptsNumber: 15,
+
+        },
+
+        5: {
+
+            name: 'MergeAway',
+
+            appToken: '8d1cc2ad-e097-4b86-90ef-7a27e19fb833',
+
+            promoId: 'dc128d28-c45b-411c-98ff-ac7726fbaea4',
+
+            eventsDelay: 20000,
+
+            attemptsNumber: 15,
+
+        },
+
+        6: {
+
+            name: 'Twerk Race 3D',
+
+            appToken: '61308365-9d16-4040-8bb0-2f4a4c69074c',
+
+            promoId: '61308365-9d16-4040-8bb0-2f4a4c69074c',
+
+            eventsDelay: 20000,
+
+            attemptsNumber: 15,
+
+            
+
+        },
+
+         7 : {
+
+            name: 'Polysphere',
+
+            appToken: '2aaf5aee-2cbc-47ec-8a3f-0962cc14bc71',
+
+            promoId: '2aaf5aee-2cbc-47ec-8a3f-0962cc14bc71',
+
+            eventsDelay: 20000,
+
+            attemptsNumber: 16,
+
+         },
+        8: {
+            name: 'Mow and Trim',
+            appToken: 'ef319a80-949a-492e-8ee0-424fb5fc20a6',
+            promoId: 'ef319a80-949a-492e-8ee0-424fb5fc20a6',
+            eventsDelay: 21000,
+            attemptsNumber: 15,
+            
+	},
+        9: {
+            name: 'Mud Racing ',
+            appToken: '8814a785-97fb-4177-9193-ca4180ff9da8',
+            promoId: '8814a785-97fb-4177-9193-ca4180ff9da8',
+            eventsDelay: 21000,
+            attemptsNumber: 15,
+            
+	},
+        3: {
+            name: 'Cafe Dash',
+            appToken: 'bc0971b8-04df-4e72-8a3e-ec4dc663cd11',
+            promoId: 'bc0971b8-04df-4e72-8a3e-ec4dc663cd11',
+            eventsDelay: 23000,
+            attemptsNumber: 16,
+        },
+    };
+
+
+
+
+
+    const startBtn = document.getElementById('startBtn');
+
+    const keyCountSelect = document.getElementById('keyCountSelect');
+
+    const keyCountLabel = document.getElementById('keyCountLabel');
+
+    const progressContainer = document.getElementById('progressContainer');
+
+    const progressBar = document.getElementById('progressBar');
+
+    const progressText = document.getElementById('progressText');
+
+    const progressLog = document.getElementById('progressLog');
+
+    const keyContainer = document.getElementById('keyContainer');
+
+    const keysList = document.getElementById('keysList');
+
+    const copyAllBtn = document.getElementById('copyAllBtn');
+
+    const generatedKeysTitle = document.getElementById('generatedKeysTitle');
+
+    const gameSelect = document.getElementById('gameSelect');
+
+    const copyStatus = document.getElementById('copyStatus');
+
+    const previousKeysContainer = document.getElementById('previousKeysContainer');
+
+    const previousKeysList = document.getElementById('previousKeysList');
+
+    const telegramChannelBtn = document.getElementById('telegramChannelBtn');
+
+
+
+    //for logs
+
+    const logMessage = (message) => {
+
+        const logArea = document.getElementById('logArea');
+
+        const logCheckbox = document.getElementById('logCheckbox');
+
+    
+
+        if (logCheckbox.checked) {
+
+            logArea.style.display = 'block'; // Show the textarea if logs are enabled
+
+            logArea.value += message + '\n';
+
+            logArea.scrollTop = logArea.scrollHeight; // Auto-scroll to the bottom
+
+        }
+
+    };
+
+    
+
+    document.getElementById('logCheckbox').addEventListener('change', (event) => {
+
+        const logArea = document.getElementById('logArea');
+
+        if (event.target.checked) {
+
+            logArea.style.display = 'block'; // Show the textarea when the checkbox is checked
+
+        } else {
+
+            logArea.style.display = 'none';  // Hide the textarea when the checkbox is unchecked
+
+        }
+
+    });
+
+
+
+    const initializeLocalStorage = () => {
+
+        const now = new Date().toISOString().split('T')[0];
+
+        Object.values(games).forEach(game => {
+
+            const storageKey = `keys_generated_${game.name}`;
+
+            const storedData = JSON.parse(localStorage.getItem(storageKey));
+
+            if (!storedData || storedData.date !== now) {
+
+                localStorage.setItem(storageKey, JSON.stringify({ date: now, count: 0, keys: [] }));
+
+            }
+
+        });
+
+    };
+
+
+
+    const generateClientId = () => {
+
+        const timestamp = Date.now();
+
+        const randomNumbers = Array.from({ length: 19 }, () => Math.floor(Math.random() * 10)).join('');
+
+        return `${timestamp}-${randomNumbers}`;
+
+    };
+
+
+
+    const login = async (clientId, appToken) => {
+
+        const response = await fetch('https://api.gamepromo.io/promo/login-client', {
+
+            method: 'POST',
+
+            headers: {
+
+                'Content-Type': 'application/json'
+
+            },
+
+            body: JSON.stringify({
+
+                appToken,
+
+                clientId,
+
+                clientOrigin: 'deviceid'
+
+            })
+
+        });
+
+
+
+        if (!response.ok) {
+
+            throw new Error('Failed to login');
+
+        }
+
+
+
+        const data = await response.json();
+
+        return data.clientToken;
+
+    };
+
+
+
+    const emulateProgress = async (clientToken, promoId) => {
+
+        const response = await fetch('https://api.gamepromo.io/promo/register-event', {
+
+            method: 'POST',
+
+            headers: {
+
+                'Authorization': `Bearer ${clientToken}`,
+
+                'Content-Type': 'application/json'
+
+            },
+
+            body: JSON.stringify({
+
+                promoId,
+
+                eventId: generateUUID(),
+
+                eventOrigin: 'undefined'
+
+            })
+
+        });
+
+
+
+        if (!response.ok) {
+
+            return false;
+
+        }
+
+
+
+        const data = await response.json();
+
+        return data.hasCode;
+
+    };
+
+
+
+    const generateKey = async (clientToken, promoId) => {
+
+        const response = await fetch('https://api.gamepromo.io/promo/create-code', {
+
+            method: 'POST',
+
+            headers: {
+
+                'Authorization': `Bearer ${clientToken}`,
+
+                'Content-Type': 'application/json'
+
+            },
+
+            body: JSON.stringify({
+
+                promoId
+
+            })
+
+        });
+
+
+
+        if (!response.ok) {
+
+            throw new Error('Failed to generate key');
+
+        }
+
+
+
+        const data = await response.json();
+
+        return data.promoCode;
+
+    };
+
+
+
+    const generateUUID = () => {
+
+        return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function (c) {
+
+            const r = Math.random() * 16 | 0, v = c === 'x' ? r : (r & 0x3 | 0x8);
+
+            return v.toString(16);
+
+        });
+
+    };
+
+
+
+    const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+
+
+
+    const delayRandom = () => Math.random() / 3 + 1;
+
+
+
+    initializeLocalStorage();
+
+
+
+    startBtn.addEventListener('click', async () => {
+
+        const gameChoice = parseInt(gameSelect.value);
+
+        const keyCount = parseInt(keyCountSelect.value);
+
+        const game = games[gameChoice];
+
+
+
+        const storageKey = `keys_generated_${game.name}`;
+
+        const storedData = JSON.parse(localStorage.getItem(storageKey));
+
+
+
+        if (storedData.count + keyCount > MAX_KEYS_PER_GAME_PER_DAY) {
+
+            alert(`You can generate only ${MAX_KEYS_PER_GAME_PER_DAY - storedData.count} more keys for ${game.name} today.`);
+
+            previousKeysList.innerHTML = storedData.keys.map(key =>
+
+                `<div class="key-item">
+
+                    <input type="text" value="${key}" readonly>
+
+                </div>`
+
+            ).join('');
+
+            previousKeysContainer.classList.remove('hidden');
+
+            return;
+
+        }
+
+
+
+        keyCountLabel.innerText = `Number of keys: ${keyCount}`;
+
+
+
+        progressBar.style.width = '0%';
+
+        progressText.innerText = '0%';
+
+        progressLog.innerText = 'Starting... \n Please wait It may take upto 1 min to Login';
+
+        progressContainer.classList.remove('hidden');
+
+        keyContainer.classList.add('hidden');
+
+        generatedKeysTitle.classList.add('hidden');
+
+        keysList.innerHTML = '';
+
+        keyCountSelect.classList.add('hidden');
+
+        gameSelect.classList.add('hidden');
+
+        startBtn.classList.add('hidden');
+
+        copyAllBtn.classList.add('hidden');
+
+        startBtn.disabled = true;
+
+
+
+        let progress = 0;
+
+        const updateProgress = (increment, message) => {
+
+            progress += increment;
+
+            progressBar.style.width = `${progress}%`;
+
+            progressText.innerText = `${progress}%`;
+
+            progressLog.innerText = message;
+
+        };
+
+    
+
+
+
+    const generateKeyProcess = async () => {
+
+    const clientId = generateClientId();
+
+    let clientToken;
+
+    try {
+
+        clientToken = await login(clientId, game.appToken);
+
+    } catch (error) {
+
+        alert(`Failed to login: ${error.message}`);
+
+        startBtn.disabled = false;
+
+        return null;
+
+    }
+
+    for (let i = 0; i < game.attemptsNumber; i++) {
+
+        logMessage(`Attempt ${i + 1}: Sending request...`);
+
+    
+
+        let countdown = game.eventsDelay / 1000;
+
+        const countdownContainer = document.getElementById('countdownContainer');
+
+        const countdownTimer = document.getElementById('countdownTimer');
+
+    
+
+        countdownContainer.style.display = 'block';
+
+        countdownTimer.textContent = countdown;
+
+    
+
+        const countdownInterval = setInterval(() => {
+
+            countdown -= 1;
+
+            countdownTimer.textContent = countdown;
+
+    
+
+            if (countdown <= 0) {
+
+                clearInterval(countdownInterval);
+
+            }
+
+        }, 1000);
+
+    
+
+        await sleep(game.eventsDelay * delayRandom());
+
+    
+
+        clearInterval(countdownInterval);
+
+        countdownContainer.style.display = 'none';
+
+    
+
+        const hasCode = await emulateProgress(clientToken, game.promoId);
+
+        updateProgress(((100 / game.attemptsNumber) / keyCount), 'Emulating progress...');
+
+    
+
+        if (hasCode) {
+
+            logMessage(`Attempt ${i + 1}: Request success. Code received.`);
+
+            break;
+
+        } else {
+
+            logMessage(`Attempt ${i + 1}: Request failed. No code received.`);
+
+        }
+
+    }
+
+    
+
+    try {
+
+        logMessage('Generating the key...');
+
+        const key = await generateKey(clientToken, game.promoId);
+
+        logMessage('Key generation successful.');
+
+        updateProgress(30 / keyCount, 'Generating key...');
+
+        return key;
+
+    } catch (error) {
+
+        logMessage(`Key generation failed: ${error.message}`);
+
+        alert(`Failed to generate key: ${error.message}`);
+
+        return null;
+
+    }
+
+};
+
+
+
+
+
+        const keys = await Promise.all(Array.from({ length: keyCount }, generateKeyProcess));
+
+
+
+        if (keys.length > 1) {
+
+            keysList.innerHTML = keys.filter(key => key).map(key =>
+
+                `<div class="key-item">
+
+                    <input type="text" value="${key}" readonly>
+
+                    <button class="copyKeyBtn" data-key="${key}">Copy Key</button>
+
+                </div>`
+
+            ).join('');
+
+            copyAllBtn.classList.remove('hidden');
+
+        } else if (keys.length === 1) {
+
+            keysList.innerHTML =
+
+                `<div class="key-item">
+
+                    <input type="text" value="${keys[0]}" readonly>
+
+                    <button class="copyKeyBtn" data-key="${keys[0]}">Copy Key</button>
+
+                </div>`;
+
+        }
+
+
+
+        storedData.count += keys.filter(key => key).length;
+
+        storedData.keys.push(...keys.filter(key => key));
+
+        localStorage.setItem(storageKey, JSON.stringify(storedData));
+
+
+
+        keyContainer.classList.remove('hidden');
+
+        generatedKeysTitle.classList.remove('hidden');
+
+        document.querySelectorAll('.copyKeyBtn').forEach(button => {
+
+            button.addEventListener('click', (event) => {
+
+                const key = event.target.getAttribute('data-key');
+
+                navigator.clipboard.writeText(key).then(() => {
+
+                    copyStatus.innerText = `Copied ${key}`;
+
+                    setTimeout(() => {
+
+                        copyStatus.innerText = '';
+
+                    }, 2000);
+
+                }).catch(err => {
+
+                    console.error('Could not copy text: ', err);
+
+                });
+
+            });
+
+        });
+
+
+
+        startBtn.disabled = false;
+
+        keyCountSelect.classList.remove('hidden');
+
+        gameSelect.classList.remove('hidden');
+
+        startBtn.classList.remove('hidden');
+
+    });
+
+
+
+    copyAllBtn.addEventListener('click', () => {
+
+        const allKeys = Array.from(document.querySelectorAll('.key-item input')).map(input => input.value).join('\n');
+
+        navigator.clipboard.writeText(allKeys).then(() => {
+
+            copyStatus.innerText = 'All keys copied';
+
+            setTimeout(() => {
+
+                copyStatus.innerText = '';
+
+            }, 2000);
+
+        }).catch(err => {
+
+            console.error('Could not copy text: ', err);
+
+        });
+
+    });
+
+
+
+    document.getElementById('creatorChannelBtn').addEventListener('click', () => {
+
+        (function() {
+
+            const part1 = atob('aHR0cHM6Ly90ZWxlZ3JhbS5tZS8=');
+
+            const part2 = atob('U2FtX0RtX2JvdA==');
+
+            const url = part1 + part2;
+
+            window['open'](url, '_blank');
+
+        })();
+
+        
+
+    });
+
+
+
+    telegramChannelBtn.addEventListener('click', () => {
+
+        (function() {
+
+            const part1 = atob('aHR0cHM6Ly90ZWxlZ3JhbS5tZS8=');
+
+            const part2 = atob('SW5zdGFfQnV5X0ZvbGxvd2Vy');
+
+            const url = part1 + part2;
+
+            window['open'](url, '_blank');
+
+        })();
+
+        
+
+    });
+
+
+
+    document.getElementById('ShowKeysBtn').addEventListener('click', () => {
+
+        const generatedCodesContainer = document.getElementById('generatedCodesContainer');
+
+        const generatedCodesList = document.getElementById('generatedCodesList');
+
+        generatedCodesList.innerHTML = ''; // Clear the list
+
+
+
+        let codesGeneratedToday = [];
+
+
+
+        Object.keys(games).forEach(key => {
+
+            const game = games[key];
+
+            const storageKey = `keys_generated_${game.name}`;
+
+            const storedData = JSON.parse(localStorage.getItem(storageKey));
+
+
+
+            if (storedData && storedData.keys && storedData.keys.length > 0) {
+
+                codesGeneratedToday = codesGeneratedToday.concat(storedData.keys.map(code => {
+
+                    return `<li>${game.name}: ${code}</li>`;
+
+                }));
+
+            }
+
+        });
+
+
+
+        if (codesGeneratedToday.length > 0) {
+
+            generatedCodesList.innerHTML = codesGeneratedToday.join('');
+
+        } else {
+
+            generatedCodesList.innerHTML = '<li>No codes generated today.</li>';
+
+        }
+
+
+
+        generatedCodesContainer.style.display = 'block';
+
+    });
+
+
+
+    
+
+});
