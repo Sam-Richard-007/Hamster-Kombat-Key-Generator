@@ -22,8 +22,8 @@ document.addEventListener('DOMContentLoaded', () => {
             name: 'Fluff Crusade',
             appToken: '112887b0-a8af-4eb2-ac63-d82df78283d9',
             promoId: '112887b0-a8af-4eb2-ac63-d82df78283d9',
-            eventsDelay: 23000,
-            attemptsNumber: 18,
+            eventsDelay: 20000,
+            attemptsNumber: 32,
         },
         4: {
             name: 'Train Miner',
@@ -66,7 +66,7 @@ document.addEventListener('DOMContentLoaded', () => {
             name: 'Tile Trio',
             appToken: 'e68b39d2-4880-4a31-b3aa-0393e7df10c7',
             promoId: 'e68b39d2-4880-4a31-b3aa-0393e7df10c7',
-            eventsDelay: 40000,
+            eventsDelay: 20000,
             attemptsNumber: 22,
             
 	},
