@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
     
-    const MAX_KEYS_PER_GAME_PER_DAY = 10;
+    const MAX_KEYS_PER_GAME_PER_DAY = 12;
     //const EVENTS_DELAY = 20000;
 
     const games = {
@@ -77,6 +77,13 @@ document.addEventListener('DOMContentLoaded', () => {
             eventsDelay: 22000,
             attemptsNumber: 25,
             
+	},
+	11:{
+	    name: 'Bouncemasters',
+            appToken: 'bc72d3b9-8e91-4884-9c33-f72482f0db37',
+            promoId: 'bc72d3b9-8e91-4884-9c33-f72482f0db37',
+            eventsDelay: 20000,
+            attemptsNumber: 30,
 	},
 	    
     };
