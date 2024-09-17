@@ -53,16 +53,18 @@ The **Hamster Kombat Key Generator** is a tool designed to help gamers generate 
 - Enhanced progress tracking with detailed logs and Countdown
 
 ## Features
-- **Seven Games Supported**: 
-  - Riding Extreme 3D
-  - Chain Cube 2048
-  - My Clone Army
+- ** Twelve Games Supported**: 
   - Train Miner
+  - Fluff Crusade
+  - Chain Cube 2048
+  - ZooPolis
   - MergeAway
   - Twerk Race
-  - Poly Sphere
-  - Mud Racing 🆕
-  - Mow and Trim 🆕
+  - Mow and Trim
+  - Tile Trio
+  - Stone Age
+  - Bouncemasters (NEW)
+  - Hide Ball (NEW)
 - **Generate Promo Codes**: Generate up to 8 promo codes at a time.
 - **Responsive Design**: Fully optimized for both desktop and mobile devices.
 - **Progress Tracking**: Real-time progress tracking during key generation.
