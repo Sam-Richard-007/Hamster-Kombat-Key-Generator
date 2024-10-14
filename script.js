@@ -19,9 +19,9 @@ document.addEventListener('DOMContentLoaded', () => {
             attemptsNumber: 15
         },
         3: {
-            name: 'Fluff Crusade',
-            appToken: '112887b0-a8af-4eb2-ac63-d82df78283d9',
-            promoId: '112887b0-a8af-4eb2-ac63-d82df78283d9',
+            name: 'Snake Run',
+            appToken: 'c8e017e2-8817-4d02-bce6-b951e74bb18f',
+            promoId: 'c8e017e2-8817-4d02-bce6-b951e74bb18f',
             eventsDelay: 20000,
             attemptsNumber: 32,
         },
@@ -40,11 +40,11 @@ document.addEventListener('DOMContentLoaded', () => {
             attemptsNumber: 15,
         },
         6: {
-            name: 'Twerk Race 3D',
-            appToken: '61308365-9d16-4040-8bb0-2f4a4c69074c',
-            promoId: '61308365-9d16-4040-8bb0-2f4a4c69074c',
+            name: 'Cooking Stories',
+            appToken: 'ed526e8c-e6c8-40fd-b72a-9e78ff6a2054',
+            promoId: 'ed526e8c-e6c8-40fd-b72a-9e78ff6a2054',
             eventsDelay: 20000,
-            attemptsNumber: 15,
+            attemptsNumber: 32,
             
         },
          7 : {
@@ -55,19 +55,19 @@ document.addEventListener('DOMContentLoaded', () => {
             attemptsNumber: 18,
          },
 	8: {
-            name: 'Mow and Trim',
-            appToken: 'ef319a80-949a-492e-8ee0-424fb5fc20a6',
-            promoId: 'ef319a80-949a-492e-8ee0-424fb5fc20a6',
-            eventsDelay: 21000,
-            attemptsNumber: 17,
+            name: 'Snake Run',
+            appToken: 'c8e017e2-8817-4d02-bce6-b951e74bb18f',
+            promoId: 'c8e017e2-8817-4d02-bce6-b951e74bb18f',
+            eventsDelay: 20000, // 30 seconds
+            attemptsNumber: 30,
             
 	},
         9: {
-            name: 'Tile Trio',
-            appToken: 'e68b39d2-4880-4a31-b3aa-0393e7df10c7',
-            promoId: 'e68b39d2-4880-4a31-b3aa-0393e7df10c7',
-            eventsDelay: 20000,
-            attemptsNumber: 22,
+            name: 'Factory World',
+            appToken: 'd02fc404-8985-4305-87d8-32bd4e66bb16',
+            promoId: 'd02fc404-8985-4305-87d8-32bd4e66bb16',
+            eventsDelay: 20000, // 30 seconds
+            attemptsNumber: 30,
             
 	},
 	10: {
@@ -93,9 +93,9 @@ document.addEventListener('DOMContentLoaded', () => {
             attemptsNumber: 30,
 	},
 	13: {
-            name: 'Pin Out Master',
-            appToken: 'd2378baf-d617-417a-9d99-d685824335f0',
-            promoId: 'd2378baf-d617-417a-9d99-d685824335f0',
+            name: 'Infected Frontier',
+            appToken: 'eb518c4b-e448-4065-9d33-06f3039f0fcb',
+            promoId: 'eb518c4b-e448-4065-9d33-06f3039f0fcb',
             eventsDelay: 20000, // 30 seconds
             attemptsNumber: 30,
         },
